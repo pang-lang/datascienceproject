@@ -551,7 +551,7 @@ if st.button("🔍 Get Answer", type="primary", use_container_width=True):
                     st.caption(f"🎯 Question Type: {head_type}")
                     
                     # Show top-k predictions
-                    with st.expander("🔍 See Top 5 Predictions"):
+                    with st.expander("🔍 See Top Predictions"):
                         for i, (ans, conf) in enumerate(top_k_predictions, 1):
                             st.write(f"{i}. **{ans}** - {conf:.2%}")
                 
