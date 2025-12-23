@@ -9,3 +9,5 @@ transformers
 matplotlib
 datasets
 pyarrow
+huggingface_hub
+seaborn

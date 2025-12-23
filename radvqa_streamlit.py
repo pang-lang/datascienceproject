@@ -8,10 +8,12 @@ import torch.nn.functional as F
 from pathlib import Path
 import json
 import sys
+import os
 from torchvision import transforms
 import matplotlib
 matplotlib.use('Agg')  # Use non-interactive backend for Streamlit
 import matplotlib.pyplot as plt
+from huggingface_hub import hf_hub_download
 
 # Add project root to path
 PROJECT_ROOT = Path(__file__).resolve().parent
@@ -29,52 +31,77 @@ st.set_page_config(
     layout="wide"
 )
 
-# Device configuration
-DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'mps' if torch.backends.mps.is_available() else 'cpu')
+# Device configuration - Use CPU for Streamlit Cloud
+DEVICE = torch.device('cpu')  # Streamlit Cloud doesn't have GPU
 
-# Paths
-LIGHTWEIGHT_CHECKPOINT = PROJECT_ROOT / "checkpoints/lightweight/best_model.pt"
-BASELINE_CHECKPOINT = PROJECT_ROOT / "checkpoints/baseline/best_model.pt"
-# Note: Answer vocab is now loaded from preprocessing data directly
+# Hugging Face configuration
+HF_REPO_ID = "daphne04/radvqa-lightweight"  # Your HuggingFace repo name
+LIGHTWEIGHT_MODEL_FILE = "lightweight_best_model.pt"
+BASELINE_MODEL_FILE = "baseline_best_model.pt"
+
+
+@st.cache_resource
+def download_model_from_hf(model_file: str, repo_id: str = HF_REPO_ID):
+    """Download model from Hugging Face Hub with caching."""
+    try:
+        with st.spinner(f"📥 Downloading {model_file} from Hugging Face..."):
+            model_path = hf_hub_download(
+                repo_id=repo_id,
+                filename=model_file,
+                cache_dir=None  # Use default cache directory
+            )
+        return model_path
+    except Exception as e:
+        st.error(f"❌ Error downloading model from Hugging Face: {e}")
+        st.info("Please ensure the repository '{repo_id}' exists and is public.")
+        raise
 
 
 @st.cache_resource
 def load_answer_vocab():
     """
-    Load and build answer vocabulary from preprocessing data.
-    This uses the same preprocessing logic as training.
+    Load answer vocabulary for inference.
+    For deployment, we use a simplified approach without loading full dataset.
     """
-    from preprocessing.combined_preprocessing import (
-        create_combined_data_loaders, 
-        normalize_answer_text,
-        BINARY_ANSWERS
-    )
+    # Binary answers for dual-head routing
+    BINARY_ANSWERS = {'yes', 'no'}
     
-    # Load a small portion of data just to get the answer vocab
-    # Use the same split configuration as training
-    try:
-        _, _, _, answer_vocab, _ = create_combined_data_loaders(
-            dataset_name="flaviagiammarino/vqa-rad",
-            batch_size=1,
-            num_workers=0,
-            max_samples=None,  # Load all to get complete vocab
-            split_seed=42,
-            use_official_test_split=True
-        )
-        
-        idx_to_answer = {idx: ans for ans, idx in answer_vocab.items()}
-        
-        return answer_vocab, idx_to_answer, BINARY_ANSWERS
-    except Exception as e:
-        st.error(f"Failed to load answer vocabulary: {e}")
-        raise
+    # Build a comprehensive answer vocabulary based on VQA-RAD dataset
+    # This is a pre-defined list to avoid downloading the full dataset on startup
+    common_answers = [
+        '<unk>', 'yes', 'no', 'normal', 'abnormal', 'lung', 'chest', 'left', 'right',
+        'pneumonia', 'ct scan', 'mri', 'x-ray', 'brain', 'abdomen', 'heart', 'kidney',
+        'liver', 'spine', 'bone', 'fracture', 'tumor', 'cancer', 'mass', 'lesion',
+        'effusion', 'edema', 'enlarged', 'calcification', 'atelectasis', 'consolidation',
+        'nodule', 'opacity', 'pleural', 'cardiomegaly', 'emphysema', 'fibrosis',
+        'infiltrate', 'pneumothorax', 'subcutaneous', 'male', 'female', 'adult',
+        'elderly', 'middle-aged', 'sagittal', 'coronal', 'axial', 'frontal',
+        'lateral', 'superior', 'inferior', 'anterior', 'posterior', 'medial',
+        'lower', 'upper', 'bilateral', 'unilateral', 'diffuse', 'focal',
+        'moderate', 'severe', 'mild', 'chronic', 'acute', 'multiple', 'single',
+        'large', 'small', 'both', 'none', 'central', 'peripheral', 'basilar',
+        'apical', 'hilar', 'mediastinal', 'parenchymal', 'vascular', 'skeletal',
+        'soft tissue', 'air', 'fluid', 'blood', 'gas', 'contrast', 'noncontrast',
+        'cystic', 'solid', 'mixed', 'rounded', 'irregular', 'smooth', 'spiculated',
+        'ground glass', 'tree-in-bud', 'crazy paving', 'honeycombing', 'bronchiectasis',
+        'thickening', 'narrowing', 'dilation', 'displacement', 'compression', 'destruction'
+    ]
+    
+    # Create vocabulary mappings
+    answer_vocab = {answer: idx for idx, answer in enumerate(common_answers)}
+    idx_to_answer = {idx: answer for answer, idx in answer_vocab.items()}
+    
+    return answer_vocab, idx_to_answer, BINARY_ANSWERS
 
 
 @st.cache_resource
 def load_lightweight_model():
-    """Load the lightweight dual-head VQA model."""
-    # Load checkpoint first to get the config
-    checkpoint = torch.load(LIGHTWEIGHT_CHECKPOINT, map_location=DEVICE, weights_only=False)
+    """Load the lightweight dual-head VQA model from Hugging Face."""
+    # Download model from Hugging Face
+    checkpoint_path = download_model_from_hf(LIGHTWEIGHT_MODEL_FILE)
+    
+    # Load checkpoint to get the config
+    checkpoint = torch.load(checkpoint_path, map_location=DEVICE, weights_only=False)
     
     # Extract config from checkpoint
     config = checkpoint.get('config', {})
@@ -105,9 +132,12 @@ def load_lightweight_model():
 
 @st.cache_resource
 def load_baseline_model():
-    """Load the baseline dual-head VQA model."""
-    # Load checkpoint first to get the config
-    checkpoint = torch.load(BASELINE_CHECKPOINT, map_location=DEVICE, weights_only=False)
+    """Load the baseline dual-head VQA model from Hugging Face."""
+    # Download model from Hugging Face
+    checkpoint_path = download_model_from_hf(BASELINE_MODEL_FILE)
+    
+    # Load checkpoint to get the config
+    checkpoint = torch.load(checkpoint_path, map_location=DEVICE, weights_only=False)
     
     # Extract config from checkpoint
     config = checkpoint.get('config', {})
