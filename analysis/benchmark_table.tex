@@ -1,0 +1,19 @@
+% Inference Time Comparison Table
+% Copy this into your LaTeX report
+
+\begin{table}[h]
+\centering
+\caption{Inference Time Comparison}
+\begin{tabular}{lcc}
+\hline
+\textbf{Metric} & \textbf{Lightweight} & \textbf{Baseline} \\
+\hline
+Mean Inference Time (ms) & 15.75 $\pm$ 7.33 & 16.36 $\pm$ 0.43 \\
+Median Inference Time (ms) & 13.97 & 16.21 \\
+Parameters & 70,656,987 & 134,117,947 \\
+Throughput (images/s) & 63.49 & 61.13 \\
+Speedup & 1.04x & 1.00x \\
+\hline
+\end{tabular}
+\label{tab:inference_benchmark}
+\end{table}

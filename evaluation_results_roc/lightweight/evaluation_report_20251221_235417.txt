@@ -1,0 +1,35 @@
+================================================================================
+VQA MODEL EVALUATION REPORT (WITH AUC-ROC & DUAL-HEAD ROUTING)
+================================================================================
+
+Evaluation Date: 2025-12-21 23:54:29
+Checkpoint: checkpoints/lightweight/best_model.pt
+Device: mps
+
+================================================================================
+RESULTS
+================================================================================
+
+Overall Accuracy: 0.6940 (69.40%)
+
+Dual-Head Usage:
+  Binary head:       251 samples (55.7%)
+  Open-ended head:   200 samples (44.3%)
+
+Multi-class Metrics:
+  Macro Precision: 0.3045
+  Macro Recall:    0.2393
+  Macro F1-Score:  0.2489
+
+AUC-ROC Scores:
+  Macro-average:    0.9221
+  Weighted-average: 0.8968
+
+Binary Questions (Yes/No):
+  Accuracy:  0.6574
+  Precision: 0.6731
+  Recall:    0.6647
+  F1-Score:  0.6550
+  AUC-ROC:   0.6469
+
+================================================================================

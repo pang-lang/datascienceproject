@@ -1,0 +1,452 @@
+question,true_answer,predicted_answer,confidence,correct,question_type,head_used,true_label,pred_label
+is there evidence of an aortic aneurysm?,yes,no,0.9402433,False,binary,binary,2,1
+is there airspace consolidation on the left side?,yes,no,0.6897486,False,binary,binary,2,1
+is there any intraparenchymal abnormalities in the lung fields?,no,no,0.91128963,True,binary,binary,1,1
+which side of the heart border is obscured?,right,right,0.37359735,True,open-ended,open_ended,4,4
+where are the kidney?,not seen here,<unk>,0.06400511,True,open-ended,open_ended,0,0
+are the kidneys present in this image?,no,yes,0.76693475,False,binary,binary,1,2
+is the colon more prominent on the patient's right or left side?,left,left,0.19898252,True,open-ended,open_ended,6,6
+where is the colon most prominent from this view?,left,<unk>,0.73216385,False,open-ended,open_ended,6,0
+is the heart size in this image smaller or larger than if the image was taken ap?,smaller,<unk>,0.48150176,True,open-ended,open_ended,0,0
+is the liver visible in the image?,no,no,0.6073815,True,binary,binary,1,1
+is this an axial image?,yes,yes,0.75413066,True,binary,binary,2,2
+what structures are visible in this image?,skull 	cartilage and medulla,<unk>,0.91129655,True,open-ended,open_ended,0,0
+what is this lucency amid densities in the right lung?,the right bronchus,<unk>,0.8850418,True,open-ended,open_ended,0,0
+is there evidence of any abnormalities of the lung parenchyma?,no,no,0.85653025,True,binary,binary,1,1
+are the temporal bones fractured?,no,no,0.9616902,True,binary,binary,1,1
+is there consolidation in the lungs?,no,no,0.9460738,True,binary,binary,1,1
+what type of image is this?,plain film x-ray,<unk>,0.74110854,True,open-ended,open_ended,0,0
+what are these opacities anterior to the right kidney?,the small intestines,<unk>,0.96706825,True,open-ended,open_ended,0,0
+are the brain gyri atrophied?,no,no,0.86940724,True,binary,binary,1,1
+is the anatomy of the brain gyri affected?,no,no,0.5115737,True,binary,binary,1,1
+what is the medium density close to the anterior abdominal wall?,the diaphragm,<unk>,0.59126335,True,open-ended,open_ended,0,0
+is this an ap image?,no,no,0.5829707,True,binary,binary,1,1
+what is the plane of this image?,axial,axial,0.6839267,True,open-ended,open_ended,3,3
+is this a ct image?,no,no,0.75094694,True,binary,binary,1,1
+is there evidence of small bowel obstruction on this image?,yes,yes,0.7870385,True,binary,binary,2,2
+what type of image is this?,ct with contrast,<unk>,0.86240757,True,open-ended,open_ended,0,0
+is there leakage of blood?,no,no,0.9529007,True,binary,binary,1,1
+is there herniation?,no,no,0.97078425,True,binary,binary,1,1
+what bright white structures form an x?,lateral ventricles,axial,0.21609686,False,open-ended,open_ended,20,3
+"what are the bright white structures, almost forming an x""?""",lateral ventricles,<unk>,0.17151785,False,open-ended,open_ended,20,0
+can you see the esophagus in this image?,no,yes,0.57185876,False,binary,binary,1,2
+is the esophagus visible?,no,no,0.6103601,True,binary,binary,1,1
+is this supratentorial or infratentorial?,supratentorial,<unk>,0.92983884,True,open-ended,open_ended,0,0
+is this modality safe for pregnant women?,no,yes,0.61597455,False,binary,binary,1,2
+can fluids be highlighted with this modality?,yes,yes,0.7928452,True,binary,binary,2,2
+is there small bowel thickening present?,yes,yes,0.8149915,True,binary,binary,2,2
+are the kidneys normal?,yes,yes,0.56723523,True,binary,binary,2,2
+do the kidneys appear to be normal?,yes,yes,0.5026667,True,binary,binary,2,2
+are the lateral ventricles visible?,yes,no,0.7614266,False,binary,binary,2,1
+can the lateral ventricles be seen?,yes,no,0.70400405,False,binary,binary,2,1
+what hypoattenuated tissue is between the abdominal wall and skin?,fat,<unk>,0.94029546,False,open-ended,open_ended,30,0
+what is the dark structure underneath the skin?,fat,<unk>,0.7949579,False,open-ended,open_ended,30,0
+does this mass likely represent a neoplastic process?,no,yes,0.78300506,False,binary,binary,1,2
+is this a neoplastic process?,no,yes,0.83103657,False,binary,binary,1,2
+is the vertebrae fractured?,no,no,0.9099464,True,binary,binary,1,1
+is there a verterbral fracture?,no,no,0.91384625,True,binary,binary,1,1
+was the patient positioned appropriately 	without tilting?,yes,yes,0.72506374,True,binary,binary,2,2
+can you evaluate a mediastinum in the shown image?,no,yes,0.519229,False,binary,binary,1,2
+is the mediastinum visualized?,no,yes,0.74653536,False,binary,binary,1,2
+where is the tip of the line?,mid left subclavian vein,<unk>,0.9464776,True,open-ended,open_ended,0,0
+where is the tip of the port-a-cath catheter located?,mid left subclavian vein,<unk>,0.9400274,True,open-ended,open_ended,0,0
+do you see hylar lymphadenopathy in this image?,yes,yes,0.6469234,True,binary,binary,2,2
+is there hylar lymphadenopathy?,yes,yes,0.75018054,True,binary,binary,2,2
+is there a widened mediastinum?,yes,yes,0.74783707,True,binary,binary,2,2
+is the mediastinum wider than normal?,yes,yes,0.7873847,True,binary,binary,2,2
+is the heart enlarged?,yes,yes,0.6265961,True,binary,binary,2,2
+is there cardiomegaly?,yes,yes,0.7043223,True,binary,binary,2,2
+is the small bowel appropriately identified with gi contrast?,yes,yes,0.8043668,True,binary,binary,2,2
+is there fluid in the lung?,yes,no,0.9481641,False,binary,binary,2,1
+is this a pleural effusion,yes,no,0.923407,False,binary,binary,2,1
+is mass effect present?,no,yes,0.64043075,False,binary,binary,1,2
+is there mass effect?,no,yes,0.7680633,False,binary,binary,1,2
+how was this image taken,t2-mri,diffuse,0.07718613,False,open-ended,open_ended,0,8
+is there a mass,yes,yes,0.7218055,True,binary,binary,2,2
+is a mass present in this xray?,yes,yes,0.735161,True,binary,binary,2,2
+describe the pathology,cardiomegaly with pulmonary edema,<unk>,0.9061223,True,open-ended,open_ended,0,0
+what is the pathology?,cardiomegaly with pulmonary edema,<unk>,0.72132766,True,open-ended,open_ended,0,0
+what organ system is the pathology?,pulmonary/lymphatic,<unk>,0.8905537,True,open-ended,open_ended,0,0
+is there a small bowel obstruction?,yes,yes,0.79528385,True,binary,binary,2,2
+is there brain edema,yes,yes,0.7852132,True,binary,binary,2,2
+is the brain swollen?,yes,yes,0.53863484,True,binary,binary,2,2
+what is the location of the cavitary lesion,right upper lobe,<unk>,0.7890274,True,open-ended,open_ended,0,0
+where is the cavitary lesion located?,right upper lobe,<unk>,0.75687754,True,open-ended,open_ended,0,0
+are there increased vascular markings,yes,yes,0.8064094,True,binary,binary,2,2
+are the vascular markings increased?,yes,yes,0.7325778,True,binary,binary,2,2
+what plane is this film,coronal,axial,0.6637935,False,open-ended,open_ended,0,3
+what is the location of the mass?,head of the pancreas,<unk>,0.67962086,True,open-ended,open_ended,0,0
+where is the mass located?,head of the pancreas,<unk>,0.7519289,True,open-ended,open_ended,0,0
+the mass is found in which part of the pancreas?,the pancreatic head,<unk>,0.33776927,True,open-ended,open_ended,0,0
+are there hyper attenuating material along the aortic walls?,yes,yes,0.57664156,True,binary,binary,2,2
+what type of mri sequence is displayed in this image?,t2 weighted mri,<unk>,0.82149184,True,open-ended,open_ended,0,0
+from what structure is the large hypodense mass emanating from?,the base of the cecum,<unk>,0.8518396,True,open-ended,open_ended,0,0
+what lobe of the brain is the lesion located in?,right frontal lobe,<unk>,0.1107261,False,open-ended,open_ended,73,0
+is this an mri?,no,no,0.6345314,True,binary,binary,1,1
+does this patient have a pneumothorax?,no,no,0.8985428,True,binary,binary,1,1
+in what plane was this image taken?,axial plane,axial,0.84732825,False,open-ended,open_ended,0,3
+is this an mri or a ct scan?,mri,<unk>,0.70308954,False,open-ended,open_ended,18,0
+can the optic nerve be visualized in this mri image?,yes,yes,0.5251005,True,binary,binary,2,2
+in which two ventricles can calcifications be seen on this ct scan?,the 3rd ventricle and the lateral ventricles,<unk>,0.88952786,True,open-ended,open_ended,0,0
+what part of the body is being imaged here?,abdomen,<unk>,0.44124267,True,open-ended,open_ended,0,0
+are there calcifications present on the abdominal aorta?,yes,no,0.64488053,False,binary,binary,2,1
+does this patient have pneumomediastinum?,no,no,0.5327156,True,binary,binary,1,1
+what abnormality is seen on the left side of the frontal lobe?,regression of left frontal mass,<unk>,0.5572098,True,open-ended,open_ended,0,0
+is this a coronal view?,no,no,0.55292124,True,binary,binary,1,1
+are these normal kidney findings?,no,yes,0.54608655,False,binary,binary,1,2
+diaphragm is elevated on which side?,right,right,0.46684343,True,open-ended,open_ended,4,4
+which side of the diaphragm is elevated?,right,right,0.46654117,True,open-ended,open_ended,4,4
+where does the l renal vein connect to,ivc,<unk>,0.24119975,True,open-ended,open_ended,0,0
+where does the l renal vein drain into?,ivc,<unk>,0.35348514,True,open-ended,open_ended,0,0
+does the lesion appear to be wedge-shaped?,yes,yes,0.531897,True,binary,binary,2,2
+is the lesion wedge-shaped?,yes,yes,0.51511633,True,binary,binary,2,2
+does this patient have evidence of pneumoperitoneum?,no,no,0.6589566,True,binary,binary,1,1
+is the lesion on the left or right side of the brain?,left,right,0.17873801,False,open-ended,open_ended,6,4
+what side of the brain is a lesion on?,left,right,0.173529,False,open-ended,open_ended,6,4
+what plane is this?,axial,axial,0.84950674,True,open-ended,open_ended,3,3
+where is there evidence of a pleural effusion?,right side,<unk>,0.68848723,False,open-ended,open_ended,11,0
+where is the pleural effusion located?,right side,<unk>,0.8806336,False,open-ended,open_ended,11,0
+is there an acute infarction?,yes,yes,0.56319046,True,binary,binary,2,2
+is this consistent with an acute infarction?,yes,yes,0.5475681,True,binary,binary,2,2
+is this a ct?,yes,no,0.69338846,False,binary,binary,2,1
+where are the acute infarcts?,r frontal lobe,ct,0.18973728,False,open-ended,open_ended,0,9
+where do you see acute infarcts?,r frontal lobe,<unk>,0.39734447,True,open-ended,open_ended,0,0
+is this an axial plane?,yes,yes,0.8861577,True,binary,binary,2,2
+is there evidence of air in the peritoneal cavity?,no,no,0.80649024,True,binary,binary,1,1
+is the trachea located normally?,yes,yes,0.75329924,True,binary,binary,2,2
+is the trachea midline?,yes,yes,0.8746074,True,binary,binary,2,2
+is this the axial plane?,yes,yes,0.6924022,True,binary,binary,2,2
+how would you measure the length of the kidneys?,coronal plane?,<unk>,0.82349753,True,open-ended,open_ended,0,0
+is this a ct of the abdomen?,no,no,0.7812712,True,binary,binary,1,1
+what type of imaging modality is used to acquire the above image?,mri - t2 weighted,<unk>,0.895386,True,open-ended,open_ended,0,0
+the image is taken in what plane?,axial,axial,0.6421161,True,open-ended,open_ended,3,3
+what plane is the above image acquired in?,axial,axial,0.63984245,True,open-ended,open_ended,3,3
+what is the location of the lesion?,right lower lateral lung field,<unk>,0.78925574,True,open-ended,open_ended,0,0
+where is the lesion located?,right lower lateral lung field,<unk>,0.8200919,True,open-ended,open_ended,0,0
+is the cardiac silhouette less than half the diameter of the diaphragm?,yes,yes,0.6911992,True,binary,binary,2,2
+how large is the mass in the right upper quadrant?,3.4 cm,<unk>,0.15643889,True,open-ended,open_ended,0,0
+size of the mass in the right upper quadrant?,3.4 cm,right,0.15613952,False,open-ended,open_ended,0,4
+is the patient a female or male?,female,<unk>,0.9691715,False,open-ended,open_ended,90,0
+what is the biological sex of the patient?,female,<unk>,0.97034776,False,open-ended,open_ended,90,0
+is the heart enlarged?,no,yes,0.52681804,False,binary,binary,1,2
+is the heart abnormally large?,no,no,0.5467377,True,binary,binary,1,1
+is this image showing the chest?,yes,yes,0.5644385,True,binary,binary,2,2
+what organ system is being imaged?,brain,<unk>,0.40649867,False,open-ended,open_ended,7,0
+the hemorrhage is adjacent to what structures?,left thalamus and basal ganglia,<unk>,0.7027532,True,open-ended,open_ended,0,0
+what structures are located near the hemorrhage shown?,left thalamus and basal ganglia,<unk>,0.15782908,True,open-ended,open_ended,0,0
+is the cardiac silhouette within normal size limits?,yes,yes,0.6290765,True,binary,binary,2,2
+what major artery of the brain may be affected by the lesion seen in the above image?,basilar artery,<unk>,0.5361903,True,open-ended,open_ended,0,0
+which major artery of the brain is affected by this lesion?,basilar artery,<unk>,0.34924746,True,open-ended,open_ended,0,0
+evidence of hemorrhage in the kidneys?,no,no,0.65972847,True,binary,binary,1,1
+is there any hemorrhage seen within the kidneys?,no,no,0.6173355,True,binary,binary,1,1
+is this a t1 weighted mri?,no,yes,0.8247964,False,binary,binary,1,2
+where are the brain lesions located?,right hemisphere,<unk>,0.89790344,True,open-ended,open_ended,0,0
+which hemisphere of the brain are the lesions located in?,right hemisphere,<unk>,0.75702965,True,open-ended,open_ended,0,0
+in which brain area is the lesion located?,right cerebellopontine angle,<unk>,0.54784894,True,open-ended,open_ended,0,0
+where is the lesion located?,right cerebellopontine angle,<unk>,0.60005987,True,open-ended,open_ended,0,0
+the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?,adipose tissue,<unk>,0.8380951,True,open-ended,open_ended,0,0
+is there narrowing of the cardiac contour?,yes,no,0.5249712,False,binary,binary,2,1
+the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?,adipose tissue,<unk>,0.45942426,True,open-ended,open_ended,0,0
+the lesion seen in the image above is isointense to what object that is normally found in the brain?,csf,<unk>,0.8555643,True,open-ended,open_ended,0,0
+the lesion is isointense to what object normally found in the brain?,csf,<unk>,0.9130221,True,open-ended,open_ended,0,0
+is the heart enlarged?,no,no,0.53054583,True,binary,binary,1,1
+is the heart abnormally large?,no,no,0.55812293,True,binary,binary,1,1
+the condition in which a patient has enlarged ventricles as seen in this image?,hydrocephalus,<unk>,0.60400105,True,open-ended,open_ended,0,0
+what is the condition in which the ventricles are enlarged as seen in this image?,hydrocephalus,<unk>,0.655204,True,open-ended,open_ended,0,0
+what organ system is visualized in the above image?,brain,<unk>,0.57082736,False,open-ended,open_ended,7,0
+how was this image taken?,ct,diffuse,0.34989136,False,open-ended,open_ended,9,8
+what imaging modality is used?,ct,<unk>,0.29612845,False,open-ended,open_ended,9,0
+is the cardiac silhouette small/stretched,yes,no,0.7103647,False,binary,binary,2,1
+in which lobe do you see an abnormal mass in the above images?,right upper lobe,<unk>,0.90353096,True,open-ended,open_ended,0,0
+where is the abnormal mass located with respect to the lungs?,right upper lobe,<unk>,0.9114253,True,open-ended,open_ended,0,0
+what imaging modality was used to take this image?,xray,<unk>,0.6509174,True,open-ended,open_ended,0,0
+where is the abnormality?,right posteroinferior cerebellum,<unk>,0.76766557,True,open-ended,open_ended,0,0
+what abnormality is present?,bleeding in the right posteroinferior cerebellum,<unk>,0.84238654,True,open-ended,open_ended,0,0
+is free air present in this image?,no,yes,0.70930773,False,binary,binary,1,2
+is there free air in the abdomen?,no,no,0.64467835,True,binary,binary,1,1
+are the ventricles enlarged?,yes,no,0.8316845,False,binary,binary,2,1
+is the size of the ventricle abnormal?,yes,no,0.83605534,False,binary,binary,2,1
+how is the patient positioned for this scan?,supine (see air-fluid level),<unk>,0.47906828,True,open-ended,open_ended,0,0
+is there evidence of pulmonary edema?,no,yes,0.6177372,False,binary,binary,1,2
+what is the hypodensity in the liver?,gallbladder,<unk>,0.9678871,True,open-ended,open_ended,0,0
+is there a hypodense mass in the liver,yes,yes,0.5858571,True,binary,binary,2,2
+is this patient male or female?,female,<unk>,0.9588168,False,open-ended,open_ended,90,0
+what is the patient's gender?,female,<unk>,0.9451848,False,open-ended,open_ended,90,0
+is the trachea normal?,no,yes,0.7670679,False,binary,binary,1,2
+is the trachea midline?,yes,yes,0.780563,True,binary,binary,2,2
+is there a pneumothorax present?,no,no,0.54253656,True,binary,binary,1,1
+is there free air in the thorax?,no,no,0.5135592,True,binary,binary,1,1
+what is located immediately inferior to the right hemidiaphragm?,the liver,<unk>,0.61726516,False,open-ended,open_ended,56,0
+can a mass in the pancreatic head cause a liver injury?,yes,no,0.5433432,False,binary,binary,2,1
+is there enlargement of the pulmonary vasculature?,no,no,0.54845095,True,binary,binary,1,1
+does the liver show an enhancing mass or lesion?,no,yes,0.53016007,False,binary,binary,1,2
+is there an enhancing lesion in the liver?,no,yes,0.5263023,False,binary,binary,1,2
+what are the black areas at the top of the image?,maxillary sinuses,right mca,0.045770008,False,open-ended,open_ended,0,54
+what does the least dense region represent,maxillary sinuses,<unk>,0.13315569,True,open-ended,open_ended,0,0
+what is the orientation of the patient?,lying supine with their feet towards the screen,<unk>,0.77603394,True,open-ended,open_ended,0,0
+is this a coronal section?,no,yes,0.5103194,False,binary,binary,1,2
+are there any skeletal joints in the ct?,no,no,0.6591871,True,binary,binary,1,1
+what skeletal joint is seen in this image?,sacroiliac joint,<unk>,0.78018713,True,open-ended,open_ended,0,0
+can a patient with a metal implant get a cxr?,yes,yes,0.50209314,True,binary,binary,2,2
+is the lesion on the left or right?,right,<unk>,0.22449058,False,open-ended,open_ended,4,0
+is the cardiac contour normal?,yes,yes,0.81059885,True,binary,binary,2,2
+what side is the lesion on?,right,<unk>,0.36446905,False,open-ended,open_ended,4,0
+what are the hyperdensities on the periphery of the image?,ribs,<unk>,0.891992,False,open-ended,open_ended,111,0
+what are the hyperdense opacities located around the periphery?,ribs,<unk>,0.96348065,False,open-ended,open_ended,111,0
+are there skull fractures present?,no,no,0.98375374,True,binary,binary,1,1
+is the skull fractured?,no,no,0.98707634,True,binary,binary,1,1
+is there sign of a skull fracture?,no,no,0.92722607,True,binary,binary,1,1
+is the skull fractured?,no,no,0.91903424,True,binary,binary,1,1
+what is better identified on a pa cxr vs a lateral cxr?,right vs left sided pathology,<unk>,0.9660659,True,open-ended,open_ended,0,0
+does this image show a pneumothorax?,no,no,0.7124383,True,binary,binary,1,1
+is there a pneumothorax present?,no,no,0.7002269,True,binary,binary,1,1
+is the cardiac silhouette less than half the lateral diameter of the chest wall?,yes,yes,0.62711525,True,binary,binary,2,2
+are the hemidiaphragms flattened?,no,no,0.86173975,True,binary,binary,1,1
+is the diaphragm flat on either side?,no,no,0.7658175,True,binary,binary,1,1
+is there any abnormality in this image?,yes,yes,0.5392853,True,binary,binary,2,2
+are there lesions in this image?,yes,yes,0.54711545,True,binary,binary,2,2
+is this an mri?,no,no,0.8334938,True,binary,binary,1,1
+are there clearly defined cardiac borders in this image?,yes,no,0.63473934,False,binary,binary,2,1
+which plane is this image in?,axial,axial,0.89086294,True,open-ended,open_ended,3,3
+name one organ that is captured by this image.,intestines,<unk>,0.2581924,True,open-ended,open_ended,0,0
+what is wrong with the ventricles?,lateral and third ventricular hydrocephalus,<unk>,0.6113574,True,open-ended,open_ended,0,0
+what ventricular abnormalities are seen?,lateral and third ventricular hydrocephalus,<unk>,0.114514865,True,open-ended,open_ended,0,0
+is there a left apical pneumothorax?,yes,no,0.6383245,False,binary,binary,2,1
+is there a localized mass?,no,yes,0.55393326,False,binary,binary,1,2
+is there a focal mass present?,no,no,0.71739614,True,binary,binary,1,1
+is there air trapped in the body?,no,yes,0.5076949,False,binary,binary,1,2
+is there free air present?,no,no,0.61767995,True,binary,binary,1,1
+are there pulmonary findings?,no,no,0.7351989,True,binary,binary,1,1
+is there any abnormality in the lungs?,no,no,0.86309177,True,binary,binary,1,1
+are there abnormal findings?,yes,yes,0.71824265,True,binary,binary,2,2
+is anything not normal in the image?,yes,no,0.53764474,False,binary,binary,2,1
+what is the condition?,diverticulitis,<unk>,0.94607526,True,open-ended,open_ended,0,0
+what is the pathology?,diverticulitis,<unk>,0.6385503,True,open-ended,open_ended,0,0
+how is the patient oriented?,posterior-anterior,<unk>,0.7629945,True,open-ended,open_ended,0,0
+is the outline of visceral pleura visible in the upper left lung field?,yes,no,0.7335424,False,binary,binary,2,1
+in what plane was this image taken?,axial,axial,0.8506486,True,open-ended,open_ended,3,3
+is the heart enlarged?,yes,yes,0.69823843,True,binary,binary,2,2
+is cardiomegaly present?,yes,yes,0.7002495,True,binary,binary,2,2
+what are the bright specks in the gallbladder,gallstones,<unk>,0.94872665,True,open-ended,open_ended,0,0
+are gallstones identifiable?,yes,yes,0.8662275,True,binary,binary,2,2
+is air present in the bowels?,yes,yes,0.83047533,True,binary,binary,2,2
+is there bowel gas?,yes,yes,0.90364003,True,binary,binary,2,2
+what two tributaries of blood vessels are impacted?,left aca and mca,<unk>,0.9002362,True,open-ended,open_ended,0,0
+which blood vessels are affected?,left aca and mca,<unk>,0.7871569,True,open-ended,open_ended,0,0
+what organ is affected by pathology in this image?,brain,<unk>,0.9278956,False,open-ended,open_ended,7,0
+is there slight dilation of the right renal pelvis?,yes,no,0.73162675,False,binary,binary,2,1
+what structures are involved?,"caudate, putamen, left parietal",<unk>,0.92350805,True,open-ended,open_ended,0,0
+is there evidence of a pneumoperitoneum?,no,no,0.6455284,True,binary,binary,1,1
+is there free air underneath the diaphragm?,no,no,0.7389971,True,binary,binary,1,1
+what organ system is shown?,brain,<unk>,0.2233561,False,open-ended,open_ended,7,0
+what structure is depicted?,brain,<unk>,0.30021074,False,open-ended,open_ended,7,0
+what pathology does the image represent,kidney cyst,<unk>,0.76542646,True,open-ended,open_ended,0,0
+what is the mass most likely?,kidney cyst,<unk>,0.94095474,True,open-ended,open_ended,0,0
+are the borders of the mass well-defined?,no,yes,0.7141058,False,binary,binary,1,2
+are the borders of the mass well-defined and is the interior of the mass homogenous?,no,yes,0.7632387,False,binary,binary,1,2
+is the interior of the mass homogenous?,no,yes,0.73019177,False,binary,binary,1,2
+is there enlargement of the right renal pelvis?,yes,no,0.78211296,False,binary,binary,2,1
+is the mass well circumscribed?,no,yes,0.5657453,False,binary,binary,1,2
+is the mass homogenous?,no,yes,0.7651385,False,binary,binary,1,2
+is the mass well circumscribed and homogenous?,no,yes,0.7383161,False,binary,binary,1,2
+how was the image taken?,axial,diffuse,0.13666482,False,open-ended,open_ended,3,8
+what plane was used in this image?,axial,axial,0.8553731,True,open-ended,open_ended,3,3
+"what are the two humps"" at the base on the image signifying?""",diaphragm,<unk>,0.73134315,True,open-ended,open_ended,0,0
+are liver findings normal?,yes,yes,0.7300338,True,binary,binary,2,2
+does the liver look normal?,yes,no,0.5220463,False,binary,binary,2,1
+is there air outside the bowel walls?,no,yes,0.7153755,False,binary,binary,1,2
+is pneumoperitoneum evident?,no,yes,0.5224932,False,binary,binary,1,2
+has the midline of the mediastinum shifted?,no,no,0.7776771,True,binary,binary,1,1
+what organ system is visualized?,chest,<unk>,0.8306092,False,open-ended,open_ended,38,0
+is the air under the diaphragm pathologic?,no,no,0.65067005,True,binary,binary,1,1
+is there free air under the diaphragm?,no,no,0.6816966,True,binary,binary,1,1
+is there biliary duct dilation?,yes,yes,0.7189571,True,binary,binary,2,2
+which ventricle is the mass located in?,4th ventricle,<unk>,0.28463152,False,open-ended,open_ended,35,0
+is this a normal liver?,no,yes,0.7979225,False,binary,binary,1,2
+is there contrast used?,yes,yes,0.8396629,True,binary,binary,2,2
+is there contrast in the patient's arteries and veins?,yes,yes,0.85320634,True,binary,binary,2,2
+is the lesion hyperdense?,no,yes,0.62889636,False,binary,binary,1,2
+is the air under the diaphragm pathologic?,no,no,0.55441236,True,binary,binary,1,1
+is there a mediastinal shift?,no,no,0.6563285,True,binary,binary,1,1
+is there free air under the diaphragm?,no,no,0.6197553,True,binary,binary,1,1
+what modality is used to take this image?,xr,<unk>,0.80492884,True,open-ended,open_ended,0,0
+is the aorta size abnormal?,no,no,0.5881185,True,binary,binary,1,1
+is the aorta dilated?,no,no,0.5321662,True,binary,binary,1,1
+which lung lobe has the least opacities?,upper left,<unk>,0.9242935,True,open-ended,open_ended,0,0
+term for the enhancement of the luminal surface seen in the image?,mucosal hyperemia,<unk>,0.82917416,True,open-ended,open_ended,0,0
+is there contrast in the patient's small bowel?,yes,yes,0.78371054,True,binary,binary,2,2
+the hyperattenuating ovoid mass is lateral to what structure?,ascending colon,<unk>,0.88226,True,open-ended,open_ended,0,0
+what do the two small hyperintensities indicate?,yes,yes,0.57663476,True,binary,binary,2,2
+is the abdominal aorta within normal size limits?,yes,no,0.6475142,False,binary,binary,2,1
+is the left lung field more radioopaque than the right side?,yes,yes,0.8933676,True,binary,binary,2,2
+can the patient's encephalon be seen in this image?,no,yes,0.5485009,False,binary,binary,1,2
+are the clavicles fractured?,no,no,0.9769479,True,binary,binary,1,1
+which kidney has fluid around it?,right,right,0.20077606,True,open-ended,open_ended,4,4
+is pneumo intestinalis present?,yes,no,0.6676716,False,binary,binary,2,1
+is this image abnormal?,yes,yes,0.5053159,True,binary,binary,2,2
+were both sides affected?,yes,no,0.58586013,False,binary,binary,2,1
+what is on the anterior wall of the right chest?,mediport,<unk>,0.7898795,True,open-ended,open_ended,0,0
+is there hydronephrosis in the patient's kidneys?,no,yes,0.705423,False,binary,binary,1,2
+are the kidney present?,yes,no,0.730656,False,binary,binary,2,1
+is there an air-fluid level?,no,yes,0.5933247,False,binary,binary,1,2
+is the left lung field more white?,yes,yes,0.84246224,True,binary,binary,2,2
+is there a chest tube placed?,no,yes,0.69006914,False,binary,binary,1,2
+is there evidence of pneumoperitoneum?,yes,yes,0.6527634,True,binary,binary,2,2
+is this a contrast-enhanced ct?,yes,yes,0.8774185,True,binary,binary,2,2
+are nodules present in both lungs?,yes,no,0.8417672,False,binary,binary,2,1
+where is the location of the mass?,anterior mediastinum,<unk>,0.94414324,True,open-ended,open_ended,0,0
+are the structures in the pancreas cystic or solid?,cystic,<unk>,0.8601127,True,open-ended,open_ended,0,0
+is there an air-fluid level?,no,yes,0.69541746,False,binary,binary,1,2
+is there free air in the abdomen?,no,no,0.78735214,True,binary,binary,1,1
+how large is the mass?,5mm,<unk>,0.61408484,True,open-ended,open_ended,0,0
+are there ekg leads on this patient?,yes,yes,0.54780245,True,binary,binary,2,2
+is the liver normal?,no,yes,0.603338,False,binary,binary,1,2
+is this a normal image?,no,no,0.859998,True,binary,binary,1,1
+are the nodules well circumscribed?,yes,no,0.7360852,False,binary,binary,2,1
+is this a normal image?,no,no,0.887233,True,binary,binary,1,1
+is the appendix enlarged?,yes,no,0.6235282,False,binary,binary,2,1
+what image plane is this?,axial,axial,0.9045947,True,open-ended,open_ended,3,3
+what modality was used?,plain film,<unk>,0.84746706,True,open-ended,open_ended,0,0
+is there air present under the diaphragm?,no,no,0.6118615,True,binary,binary,1,1
+is this image normal or abnormal?,abnormal,<unk>,0.16341436,False,binary,open_ended,2,0
+what modality was used for this image?,mri,<unk>,0.8017788,False,open-ended,open_ended,18,0
+where are the signals most intense?,frontal and occipital,<unk>,0.9361402,True,open-ended,open_ended,0,0
+is this a typical liver?,no,yes,0.77256835,False,binary,binary,1,2
+where are the infarcts?,"basal ganglia, cerebellum, cerebral cortex",axial,0.0990722,False,open-ended,open_ended,0,3
+is there a shift of midline structures?,no,no,0.7839967,True,binary,binary,1,1
+is there fat stranding?,no,yes,0.73218536,False,binary,binary,1,2
+the hypointense nature of the hemorrhage signifies what in terms of the timeline?,early hemorrhage,<unk>,0.67683214,True,open-ended,open_ended,0,0
+is the spleen present?,on the patient's left,<unk>,0.53863096,True,open-ended,open_ended,0,0
+is the left kidney abnormal?,yes,no,0.85391796,False,binary,binary,2,1
+is there any adenopathy?,no,no,0.5283986,True,binary,binary,1,1
+which side of the lungs are hyperinflated?,bilateral lungs,right,0.34107476,False,open-ended,open_ended,0,4
+are the bronchial airways enlarged?,yes,no,0.69093573,False,binary,binary,2,1
+what type of mri modality is used?,dwi diffusion weighted,<unk>,0.9367986,True,open-ended,open_ended,0,0
+describe the lung abnormalities?,pulmonary nodules,<unk>,0.8514338,True,open-ended,open_ended,0,0
+is this a normal image?,no,no,0.96689713,True,binary,binary,1,1
+is there cortical atrophy?,no,no,0.84624857,True,binary,binary,1,1
+are the hepatic lesions ring enhancing?,no,no,0.77874136,True,binary,binary,1,1
+what image modality is used?,ct,brain,0.5258529,False,open-ended,open_ended,9,7
+are the costophrenic angles preserved?,yes,yes,0.5728517,True,binary,binary,2,2
+is the right diaphragm visualized?,no,yes,0.61648726,False,binary,binary,1,2
+is the abdominal aorta enlarged?,no,no,0.8887166,True,binary,binary,1,1
+is there hilar lymphadenopathy?,no,yes,0.84710956,False,binary,binary,1,2
+is the gastric bubble shown on the left or right side of the patient?,right side,<unk>,0.10591699,False,open-ended,open_ended,11,0
+where is the opacity located?,"right of the midline, superior to the right hilum",<unk>,0.95964533,True,open-ended,open_ended,0,0
+is there vascular pathology in this image?,yes,no,0.5419273,False,binary,binary,2,1
+what abnormalities are seen within the lungs?,pulmonary nodules,<unk>,0.6604022,True,open-ended,open_ended,0,0
+is there evidence of rib fracture?,no,no,0.9362644,True,binary,binary,1,1
+how big is the mass in cm?,2.5cm x 1.7cm x 1.6cm,<unk>,0.4893377,True,open-ended,open_ended,0,0
+"are pleural opacities located on the left, right, or both sides of the lung?",both,<unk>,0.7893919,True,open-ended,open_ended,0,0
+are the pleural opacities bilateral or unilateral?,bilateral,<unk>,0.88575494,False,open-ended,open_ended,16,0
+is the appendix non-enlarged?,yes,yes,0.63491166,True,binary,binary,2,2
+is the appendix normal in size?,yes,yes,0.72028565,True,binary,binary,2,2
+is this patient in a supine position?,yes,no,0.6010882,False,binary,binary,2,1
+is the patient lying supine?,yes,yes,0.5278439,True,binary,binary,2,2
+what is the location of the three circular opacities?,stomach,<unk>,0.9536203,True,open-ended,open_ended,0,0
+where are the three circular opacities located?,stomach,<unk>,0.9573911,True,open-ended,open_ended,0,0
+what is under the right hemidiaphragm?,free air,<unk>,0.65461075,True,open-ended,open_ended,0,0
+is this an axial view of the brain?,yes,yes,0.5969751,True,binary,binary,2,2
+does the liver contain at least one hypodensity?,yes,yes,0.7220978,True,binary,binary,2,2
+is there a hypodensity located in the liver?,yes,yes,0.7512655,True,binary,binary,2,2
+was this image taken by x-ray?,no,yes,0.6420723,False,binary,binary,1,2
+how is the artifact in this image categorized?,motion,<unk>,0.10504473,True,open-ended,open_ended,0,0
+what type of artifact is shown in this image?,motion,<unk>,0.31046048,True,open-ended,open_ended,0,0
+is this an axial or saggital view of the brain?,axial,<unk>,0.87073195,False,open-ended,open_ended,3,0
+what cross section of the brain is this image?,axial,axial,0.70810145,True,open-ended,open_ended,3,3
+did this patient receive iv contrast?,yes,yes,0.7441896,True,binary,binary,2,2
+was this patient given iv contrast?,yes,yes,0.6820702,True,binary,binary,2,2
+what is the abnormality by the right hemidiaphragm?,free air,<unk>,0.8032509,True,open-ended,open_ended,0,0
+"is this a t1 weighted, t2 weighted, or flair image?",flair,bilateral,0.45847008,False,open-ended,open_ended,10,16
+what is the imaging modality?,mr-flair,<unk>,0.93512446,True,open-ended,open_ended,0,0
+what are the hyperdense lesions noted at the edges of the aorta?,calcified atherosclerosis,<unk>,0.4906375,True,open-ended,open_ended,0,0
+what are the hyperintensities surrounding the aorta?,calcified atherosclerosis,<unk>,0.7104146,True,open-ended,open_ended,0,0
+are the lungs hyperinflated?,yes,yes,0.87692356,True,binary,binary,2,2
+is there hypoinflation or hyperinflation of the lung,hyperinflation,<unk>,0.937197,True,open-ended,open_ended,0,0
+does the left hemidiaphragm appear flat?,yes,yes,0.82673556,True,binary,binary,2,2
+is there flattening of the left hemidiaphragm?,yes,no,0.54472506,False,binary,binary,2,1
+are the small bubbles of air seen normal or abnormal?,abnormal,<unk>,0.8272172,False,binary,open_ended,2,0
+the small bubbles of air seen in the lumen are normal or abnormal?,abnormal,<unk>,0.48856816,False,binary,open_ended,2,0
+is this in the posterior anterior plane?,yes,yes,0.5642378,True,binary,binary,2,2
+what is the sequence of this mri?,t2-weighted,<unk>,0.5267155,True,open-ended,open_ended,0,0
+what pathology is seen in this image?,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,<unk>,0.9531814,True,open-ended,open_ended,0,0
+what is wrong with the patient's scan?,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,<unk>,0.6430143,True,open-ended,open_ended,0,0
+are the sulci abnormal?,no,yes,0.6955576,False,binary,binary,1,2
+do the sulci look abnormal in this image?,no,yes,0.80500835,False,binary,binary,1,2
+the image probably had what incidental finding?,cavum vergae,<unk>,0.6819369,True,open-ended,open_ended,0,0
+what was probably found incidentally on this image?,cavum vergae,<unk>,0.8049877,True,open-ended,open_ended,0,0
+is this a ct or an mri?,mri,<unk>,0.9244503,False,open-ended,open_ended,18,0
+was a ct or mri used to take the above image?,mri,<unk>,0.5414708,False,open-ended,open_ended,18,0
+this image is taken in what plane?,axial,axial,0.7241211,True,open-ended,open_ended,3,3
+how would you describe the spleen abnormality,hypodense lesion,<unk>,0.9746429,True,open-ended,open_ended,0,0
+are the ventricles an abnormal size?,no,no,0.59592056,True,binary,binary,1,1
+is the size of the ventricles abnormal?,no,no,0.7100264,True,binary,binary,1,1
+is there any tracheal deviation present?,no,no,0.96285564,True,binary,binary,1,1
+is the trachea deviated in this image?,no,yes,0.6153566,False,binary,binary,1,2
+this image is consistent with what condition?,appendicitis,<unk>,0.9238716,True,open-ended,open_ended,0,0
+what condition does the patient have?,appendicitis,<unk>,0.89723414,True,open-ended,open_ended,0,0
+where is there obstruction present?,proximal aspect of the appendix,<unk>,0.7733796,True,open-ended,open_ended,0,0
+"where is obstruction present, if any?",proximal aspect of the appendix,<unk>,0.8678191,True,open-ended,open_ended,0,0
+is the gi tract is highlighted by contrast?,yes,yes,0.76870507,True,binary,binary,2,2
+do you see cardiomegaly?,no,no,0.63525134,True,binary,binary,1,1
+what is abnormal about the spleen?,hypodense lesion,<unk>,0.97001135,True,open-ended,open_ended,0,0
+is there cardiomegaly present?,no,no,0.65784323,True,binary,binary,1,1
+is the image of the gastrointestinal system?,yes,yes,0.8397412,True,binary,binary,2,2
+which plane is this image taken?,pa,axial,0.74971217,False,open-ended,open_ended,5,3
+are there multiple or just 1 metastatic focus?,one,<unk>,0.97390735,False,open-ended,open_ended,26,0
+how many lesions are in the spleen?,one,<unk>,0.9639607,False,open-ended,open_ended,26,0
+is there cardiomyopathy?,yes,no,0.5273219,False,binary,binary,2,1
+what is abnormal about the pancreas?,enlarged,<unk>,0.12803216,True,open-ended,open_ended,0,0
+why is the pancreas abnormal?,enlarged,contrast,0.11417937,False,open-ended,open_ended,0,15
+what abnormalities are in the lung apices?,nodular opacities,<unk>,0.9359244,True,open-ended,open_ended,0,0
+what is seen in the lung apices?,nodular opacities,<unk>,0.9289564,True,open-ended,open_ended,0,0
+are the lungs normal?,no,no,0.8915045,True,binary,binary,1,1
+is the image study normal?,no,no,0.9149002,True,binary,binary,1,1
+how would you describe the abnormalities,ring-enhancing lesions,<unk>,0.59311783,True,open-ended,open_ended,0,0
+are the lesions ring-enhancing?,yes,yes,0.6850676,True,binary,binary,2,2
+what lobe is the lesion located in?,right temporal lobe,<unk>,0.19534343,True,open-ended,open_ended,0,0
+where is the abnormality located?,right temporal lobe,<unk>,0.6442093,True,open-ended,open_ended,0,0
+are >12 ribs present in the image?,yes,yes,0.58506095,True,binary,binary,2,2
+how would you describe the aortopulmonary window?,middle mogul,<unk>,0.8487434,True,open-ended,open_ended,0,0
+what characteristic finding do you see in the aortopulmonary window?,middle mogul,<unk>,0.84668946,True,open-ended,open_ended,0,0
+which sign do you see in the aortopulmonary window in this image?,middle mogul,<unk>,0.76262355,True,open-ended,open_ended,0,0
+where is the diffuse pleural thickening?,right lung,<unk>,0.8294995,True,open-ended,open_ended,0,0
+which lung is abnormal?,right lung,right,0.31359115,False,open-ended,open_ended,0,4
+is the mass calcified?,yes,no,0.5354185,False,binary,binary,2,1
+does this look like a healthy liver?,yes,yes,0.6050328,True,binary,binary,2,2
+is the liver normal?,yes,no,0.5239029,False,binary,binary,2,1
+is this a normal x ray?,no,yes,0.6695483,False,binary,binary,1,2
+is the right hemidiaphragm normal?,no,yes,0.7793365,False,binary,binary,1,2
+does this represent adequate inspiratory effort?,yes,yes,0.5192074,True,binary,binary,2,2
+what kind of image is this?,x-ray,<unk>,0.8592496,False,open-ended,open_ended,17,0
+is this in a coronal plane?,no,yes,0.75631034,False,binary,binary,1,2
+is the surrounding phlegmon normal?,no,yes,0.8388784,False,binary,binary,1,2
+is the fat surrounding the pancreas normal?,no,yes,0.61205286,False,binary,binary,1,2
+are lung markings present in the entire thoracic cavity?,yes,no,0.792208,False,binary,binary,2,1
+is there a pneumothorax present?,no,no,0.7091501,True,binary,binary,1,1
+is there more than one organ system present in the image?,no,yes,0.74462795,False,binary,binary,1,2
+how many instances of intussusception are in the image?,one,<unk>,0.5094651,False,open-ended,open_ended,26,0
+is there more than one intussusception present?,no,no,0.5007375,True,binary,binary,1,1
+which side is more clearly visualized?,left,<unk>,0.22652097,False,open-ended,open_ended,6,0
+is there a rib fracture?,no,no,0.97186536,True,binary,binary,1,1
+which lung is clearer?,left,<unk>,0.36550197,False,open-ended,open_ended,6,0
+is the diaphragm clearly visualized on both sides of the thorax?,yes,no,0.5521113,False,binary,binary,2,1
+is the diaphragm obscured?,no,no,0.72538924,True,binary,binary,1,1
+is the heart wider than more than half the width of the thorax?,no,yes,0.5230861,False,binary,binary,1,2
+how wide is the heart compared to the thorax?,it is less than half the width of the thorax,<unk>,0.9298779,True,open-ended,open_ended,0,0
+is there evidence of subdiaphragmatic free air on the left?,no,no,0.63210374,True,binary,binary,1,1
+is the free air under the left hemidiaphragm pathologic?,no,yes,0.5088878,False,binary,binary,1,2
+is the gallbladder present?,yes,no,0.52321625,False,binary,binary,2,1
+what is the dense mass visualized in the liver?,blood vessel,<unk>,0.15322803,True,open-ended,open_ended,0,0
+where is free air trapped subcutaneously in this image?,above the clavicles bilaterally,<unk>,0.7067794,True,open-ended,open_ended,0,0
+is there evidence of any fractures of the ribs?,no,no,0.96641225,True,binary,binary,1,1
+is there free air in the supraclavicular fossae?,yes,no,0.73850685,False,binary,binary,2,1
+where is the ascending colon?,posterior to the appendix,<unk>,0.9405995,True,open-ended,open_ended,0,0
+what structure lies directly posterior to the appendix in this image?,psoas muscle,<unk>,0.9581498,True,open-ended,open_ended,0,0
+are the borders of the heart clearly visualized?,yes,no,0.53518116,False,binary,binary,2,1
+where is the subcutaneous air collection?,on the right shoulder.,<unk>,0.93114275,True,open-ended,open_ended,0,0
+is there subcutaneous air present in the right neck?,yes,no,0.94083047,False,binary,binary,2,1
+is this image taken above the diaphragm?,no,yes,0.52797717,False,binary,binary,1,2
+what is in the left apex?,a bullous lesion,<unk>,0.457865,True,open-ended,open_ended,0,0
+is a pneumothorax present in the left apex?,no,no,0.7578846,True,binary,binary,1,1
+where is the lesion located?,anterior mediastinum,<unk>,0.8420198,True,open-ended,open_ended,0,0

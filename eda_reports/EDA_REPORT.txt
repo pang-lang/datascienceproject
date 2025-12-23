@@ -1,0 +1,53 @@
+================================================================================
+VQA-RAD DATASET - EXPLORATORY DATA ANALYSIS REPORT
+================================================================================
+
+1. DATASET OVERVIEW
+--------------------------------------------------------------------------------
+Total samples across all splits: 2244
+  train: 1793 samples
+  test: 451 samples
+
+2. QUESTION STATISTICS
+--------------------------------------------------------------------------------
+Total questions: 2244
+Average question length: 6.82 words
+Median question length: 6 words
+Question length range: 3 - 22 words
+
+3. ANSWER STATISTICS
+--------------------------------------------------------------------------------
+Total unique answers: 507
+Most common answers:
+  'no': 607 (27.0%)
+  'yes': 585 (26.1%)
+  'axial': 43 (1.9%)
+  'right': 26 (1.2%)
+  'left': 19 (0.8%)
+  'pa': 15 (0.7%)
+  'ct': 13 (0.6%)
+  'brain': 13 (0.6%)
+  'xray': 11 (0.5%)
+  'fat': 9 (0.4%)
+  'mri': 8 (0.4%)
+  'one': 8 (0.4%)
+  'right side': 8 (0.4%)
+  'with contrast': 7 (0.3%)
+  'bilateral': 7 (0.3%)
+
+4. QUESTION TYPE DISTRIBUTION
+--------------------------------------------------------------------------------
+  binary: 1192 (53.1%)
+  open-ended: 1052 (46.9%)
+
+5. ANSWER COVERAGE
+--------------------------------------------------------------------------------
+  Top-10 answers cover: 59.8% of dataset
+  Top-20 answers cover: 62.9% of dataset
+  Top-50 answers cover: 69.1% of dataset
+  Top-100 answers cover: 75.0% of dataset
+
+================================================================================
+Report generated successfully!
+See 'eda_reports/' folder for detailed visualizations.
+================================================================================

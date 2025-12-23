@@ -1,0 +1,201 @@
+question,true_answer,predicted_answer,correct,question_type
+which side of the heart border is obscured?,right,right,True,open-ended
+where are the kidney?,not seen here,<unk>,True,open-ended
+is the colon more prominent on the patient's right or left side?,left,left,True,open-ended
+where is the colon most prominent from this view?,left,<unk>,False,open-ended
+is the heart size in this image smaller or larger than if the image was taken ap?,smaller,<unk>,True,open-ended
+what structures are visible in this image?,skull 	cartilage and medulla,<unk>,True,open-ended
+what is this lucency amid densities in the right lung?,the right bronchus,<unk>,True,open-ended
+what type of image is this?,plain film x-ray,<unk>,True,open-ended
+what are these opacities anterior to the right kidney?,the small intestines,<unk>,True,open-ended
+what is the medium density close to the anterior abdominal wall?,the diaphragm,<unk>,True,open-ended
+what is the plane of this image?,axial,axial,True,open-ended
+what type of image is this?,ct with contrast,<unk>,True,open-ended
+what bright white structures form an x?,lateral ventricles,axial,False,open-ended
+"what are the bright white structures, almost forming an x""?""",lateral ventricles,<unk>,False,open-ended
+is this supratentorial or infratentorial?,supratentorial,<unk>,True,open-ended
+what hypoattenuated tissue is between the abdominal wall and skin?,fat,<unk>,False,open-ended
+what is the dark structure underneath the skin?,fat,<unk>,False,open-ended
+where is the tip of the line?,mid left subclavian vein,<unk>,True,open-ended
+where is the tip of the port-a-cath catheter located?,mid left subclavian vein,<unk>,True,open-ended
+how was this image taken,t2-mri,diffuse,False,open-ended
+describe the pathology,cardiomegaly with pulmonary edema,<unk>,True,open-ended
+what is the pathology?,cardiomegaly with pulmonary edema,<unk>,True,open-ended
+what organ system is the pathology?,pulmonary/lymphatic,<unk>,True,open-ended
+what is the location of the cavitary lesion,right upper lobe,<unk>,True,open-ended
+where is the cavitary lesion located?,right upper lobe,<unk>,True,open-ended
+what plane is this film,coronal,axial,False,open-ended
+what is the location of the mass?,head of the pancreas,<unk>,True,open-ended
+where is the mass located?,head of the pancreas,<unk>,True,open-ended
+the mass is found in which part of the pancreas?,the pancreatic head,<unk>,True,open-ended
+what type of mri sequence is displayed in this image?,t2 weighted mri,<unk>,True,open-ended
+from what structure is the large hypodense mass emanating from?,the base of the cecum,<unk>,True,open-ended
+what lobe of the brain is the lesion located in?,right frontal lobe,<unk>,False,open-ended
+in what plane was this image taken?,axial plane,axial,False,open-ended
+is this an mri or a ct scan?,mri,<unk>,False,open-ended
+in which two ventricles can calcifications be seen on this ct scan?,the 3rd ventricle and the lateral ventricles,<unk>,True,open-ended
+what part of the body is being imaged here?,abdomen,<unk>,True,open-ended
+what abnormality is seen on the left side of the frontal lobe?,regression of left frontal mass,<unk>,True,open-ended
+diaphragm is elevated on which side?,right,right,True,open-ended
+which side of the diaphragm is elevated?,right,right,True,open-ended
+where does the l renal vein connect to,ivc,<unk>,True,open-ended
+where does the l renal vein drain into?,ivc,<unk>,True,open-ended
+is the lesion on the left or right side of the brain?,left,right,False,open-ended
+what side of the brain is a lesion on?,left,right,False,open-ended
+what plane is this?,axial,axial,True,open-ended
+where is there evidence of a pleural effusion?,right side,<unk>,False,open-ended
+where is the pleural effusion located?,right side,<unk>,False,open-ended
+where are the acute infarcts?,r frontal lobe,ct,False,open-ended
+where do you see acute infarcts?,r frontal lobe,<unk>,True,open-ended
+how would you measure the length of the kidneys?,coronal plane?,<unk>,True,open-ended
+what type of imaging modality is used to acquire the above image?,mri - t2 weighted,<unk>,True,open-ended
+the image is taken in what plane?,axial,axial,True,open-ended
+what plane is the above image acquired in?,axial,axial,True,open-ended
+what is the location of the lesion?,right lower lateral lung field,<unk>,True,open-ended
+where is the lesion located?,right lower lateral lung field,<unk>,True,open-ended
+how large is the mass in the right upper quadrant?,3.4 cm,<unk>,True,open-ended
+size of the mass in the right upper quadrant?,3.4 cm,right,False,open-ended
+is the patient a female or male?,female,<unk>,False,open-ended
+what is the biological sex of the patient?,female,<unk>,False,open-ended
+what organ system is being imaged?,brain,<unk>,False,open-ended
+the hemorrhage is adjacent to what structures?,left thalamus and basal ganglia,<unk>,True,open-ended
+what structures are located near the hemorrhage shown?,left thalamus and basal ganglia,<unk>,True,open-ended
+what major artery of the brain may be affected by the lesion seen in the above image?,basilar artery,<unk>,True,open-ended
+which major artery of the brain is affected by this lesion?,basilar artery,<unk>,True,open-ended
+where are the brain lesions located?,right hemisphere,<unk>,True,open-ended
+which hemisphere of the brain are the lesions located in?,right hemisphere,<unk>,True,open-ended
+in which brain area is the lesion located?,right cerebellopontine angle,<unk>,True,open-ended
+where is the lesion located?,right cerebellopontine angle,<unk>,True,open-ended
+the tissue within the hyperattenuating ovoid mass adjacent to the ascending colon is similar in density to what tissue normally found?,adipose tissue,<unk>,True,open-ended
+the tissue in the hyperattenuating ovoid mass on the patient's right is similar density wise to what tissue that is normally found?,adipose tissue,<unk>,True,open-ended
+the lesion seen in the image above is isointense to what object that is normally found in the brain?,csf,<unk>,True,open-ended
+the lesion is isointense to what object normally found in the brain?,csf,<unk>,True,open-ended
+the condition in which a patient has enlarged ventricles as seen in this image?,hydrocephalus,<unk>,True,open-ended
+what is the condition in which the ventricles are enlarged as seen in this image?,hydrocephalus,<unk>,True,open-ended
+what organ system is visualized in the above image?,brain,<unk>,False,open-ended
+how was this image taken?,ct,diffuse,False,open-ended
+what imaging modality is used?,ct,<unk>,False,open-ended
+in which lobe do you see an abnormal mass in the above images?,right upper lobe,<unk>,True,open-ended
+where is the abnormal mass located with respect to the lungs?,right upper lobe,<unk>,True,open-ended
+what imaging modality was used to take this image?,xray,<unk>,True,open-ended
+where is the abnormality?,right posteroinferior cerebellum,<unk>,True,open-ended
+what abnormality is present?,bleeding in the right posteroinferior cerebellum,<unk>,True,open-ended
+how is the patient positioned for this scan?,supine (see air-fluid level),<unk>,True,open-ended
+what is the hypodensity in the liver?,gallbladder,<unk>,True,open-ended
+is this patient male or female?,female,<unk>,False,open-ended
+what is the patient's gender?,female,<unk>,False,open-ended
+what is located immediately inferior to the right hemidiaphragm?,the liver,<unk>,False,open-ended
+what are the black areas at the top of the image?,maxillary sinuses,right mca,False,open-ended
+what does the least dense region represent,maxillary sinuses,<unk>,True,open-ended
+what is the orientation of the patient?,lying supine with their feet towards the screen,<unk>,True,open-ended
+what skeletal joint is seen in this image?,sacroiliac joint,<unk>,True,open-ended
+is the lesion on the left or right?,right,<unk>,False,open-ended
+what side is the lesion on?,right,<unk>,False,open-ended
+what are the hyperdensities on the periphery of the image?,ribs,<unk>,False,open-ended
+what are the hyperdense opacities located around the periphery?,ribs,<unk>,False,open-ended
+what is better identified on a pa cxr vs a lateral cxr?,right vs left sided pathology,<unk>,True,open-ended
+which plane is this image in?,axial,axial,True,open-ended
+name one organ that is captured by this image.,intestines,<unk>,True,open-ended
+what is wrong with the ventricles?,lateral and third ventricular hydrocephalus,<unk>,True,open-ended
+what ventricular abnormalities are seen?,lateral and third ventricular hydrocephalus,<unk>,True,open-ended
+what is the condition?,diverticulitis,<unk>,True,open-ended
+what is the pathology?,diverticulitis,<unk>,True,open-ended
+how is the patient oriented?,posterior-anterior,<unk>,True,open-ended
+in what plane was this image taken?,axial,axial,True,open-ended
+what are the bright specks in the gallbladder,gallstones,<unk>,True,open-ended
+what two tributaries of blood vessels are impacted?,left aca and mca,<unk>,True,open-ended
+which blood vessels are affected?,left aca and mca,<unk>,True,open-ended
+what organ is affected by pathology in this image?,brain,<unk>,False,open-ended
+what structures are involved?,"caudate, putamen, left parietal",<unk>,True,open-ended
+what organ system is shown?,brain,<unk>,False,open-ended
+what structure is depicted?,brain,<unk>,False,open-ended
+what pathology does the image represent,kidney cyst,<unk>,True,open-ended
+what is the mass most likely?,kidney cyst,<unk>,True,open-ended
+how was the image taken?,axial,diffuse,False,open-ended
+what plane was used in this image?,axial,axial,True,open-ended
+"what are the two humps"" at the base on the image signifying?""",diaphragm,<unk>,True,open-ended
+what organ system is visualized?,chest,<unk>,False,open-ended
+which ventricle is the mass located in?,4th ventricle,<unk>,False,open-ended
+what modality is used to take this image?,xr,<unk>,True,open-ended
+which lung lobe has the least opacities?,upper left,<unk>,True,open-ended
+term for the enhancement of the luminal surface seen in the image?,mucosal hyperemia,<unk>,True,open-ended
+the hyperattenuating ovoid mass is lateral to what structure?,ascending colon,<unk>,True,open-ended
+which kidney has fluid around it?,right,right,True,open-ended
+what is on the anterior wall of the right chest?,mediport,<unk>,True,open-ended
+where is the location of the mass?,anterior mediastinum,<unk>,True,open-ended
+are the structures in the pancreas cystic or solid?,cystic,<unk>,True,open-ended
+how large is the mass?,5mm,<unk>,True,open-ended
+what image plane is this?,axial,axial,True,open-ended
+what modality was used?,plain film,<unk>,True,open-ended
+is this image normal or abnormal?,abnormal,<unk>,False,binary
+what modality was used for this image?,mri,<unk>,False,open-ended
+where are the signals most intense?,frontal and occipital,<unk>,True,open-ended
+where are the infarcts?,"basal ganglia, cerebellum, cerebral cortex",axial,False,open-ended
+the hypointense nature of the hemorrhage signifies what in terms of the timeline?,early hemorrhage,<unk>,True,open-ended
+is the spleen present?,on the patient's left,<unk>,True,open-ended
+which side of the lungs are hyperinflated?,bilateral lungs,right,False,open-ended
+what type of mri modality is used?,dwi diffusion weighted,<unk>,True,open-ended
+describe the lung abnormalities?,pulmonary nodules,<unk>,True,open-ended
+what image modality is used?,ct,brain,False,open-ended
+is the gastric bubble shown on the left or right side of the patient?,right side,<unk>,False,open-ended
+where is the opacity located?,"right of the midline, superior to the right hilum",<unk>,True,open-ended
+what abnormalities are seen within the lungs?,pulmonary nodules,<unk>,True,open-ended
+how big is the mass in cm?,2.5cm x 1.7cm x 1.6cm,<unk>,True,open-ended
+"are pleural opacities located on the left, right, or both sides of the lung?",both,<unk>,True,open-ended
+are the pleural opacities bilateral or unilateral?,bilateral,<unk>,False,open-ended
+what is the location of the three circular opacities?,stomach,<unk>,True,open-ended
+where are the three circular opacities located?,stomach,<unk>,True,open-ended
+what is under the right hemidiaphragm?,free air,<unk>,True,open-ended
+how is the artifact in this image categorized?,motion,<unk>,True,open-ended
+what type of artifact is shown in this image?,motion,<unk>,True,open-ended
+is this an axial or saggital view of the brain?,axial,<unk>,False,open-ended
+what cross section of the brain is this image?,axial,axial,True,open-ended
+what is the abnormality by the right hemidiaphragm?,free air,<unk>,True,open-ended
+"is this a t1 weighted, t2 weighted, or flair image?",flair,bilateral,False,open-ended
+what is the imaging modality?,mr-flair,<unk>,True,open-ended
+what are the hyperdense lesions noted at the edges of the aorta?,calcified atherosclerosis,<unk>,True,open-ended
+what are the hyperintensities surrounding the aorta?,calcified atherosclerosis,<unk>,True,open-ended
+is there hypoinflation or hyperinflation of the lung,hyperinflation,<unk>,True,open-ended
+are the small bubbles of air seen normal or abnormal?,abnormal,<unk>,False,binary
+the small bubbles of air seen in the lumen are normal or abnormal?,abnormal,<unk>,False,binary
+what is the sequence of this mri?,t2-weighted,<unk>,True,open-ended
+what pathology is seen in this image?,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,<unk>,True,open-ended
+what is wrong with the patient's scan?,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,<unk>,True,open-ended
+the image probably had what incidental finding?,cavum vergae,<unk>,True,open-ended
+what was probably found incidentally on this image?,cavum vergae,<unk>,True,open-ended
+is this a ct or an mri?,mri,<unk>,False,open-ended
+was a ct or mri used to take the above image?,mri,<unk>,False,open-ended
+this image is taken in what plane?,axial,axial,True,open-ended
+how would you describe the spleen abnormality,hypodense lesion,<unk>,True,open-ended
+this image is consistent with what condition?,appendicitis,<unk>,True,open-ended
+what condition does the patient have?,appendicitis,<unk>,True,open-ended
+where is there obstruction present?,proximal aspect of the appendix,<unk>,True,open-ended
+"where is obstruction present, if any?",proximal aspect of the appendix,<unk>,True,open-ended
+what is abnormal about the spleen?,hypodense lesion,<unk>,True,open-ended
+which plane is this image taken?,pa,axial,False,open-ended
+are there multiple or just 1 metastatic focus?,one,<unk>,False,open-ended
+how many lesions are in the spleen?,one,<unk>,False,open-ended
+what is abnormal about the pancreas?,enlarged,<unk>,True,open-ended
+why is the pancreas abnormal?,enlarged,contrast,False,open-ended
+what abnormalities are in the lung apices?,nodular opacities,<unk>,True,open-ended
+what is seen in the lung apices?,nodular opacities,<unk>,True,open-ended
+how would you describe the abnormalities,ring-enhancing lesions,<unk>,True,open-ended
+what lobe is the lesion located in?,right temporal lobe,<unk>,True,open-ended
+where is the abnormality located?,right temporal lobe,<unk>,True,open-ended
+how would you describe the aortopulmonary window?,middle mogul,<unk>,True,open-ended
+what characteristic finding do you see in the aortopulmonary window?,middle mogul,<unk>,True,open-ended
+which sign do you see in the aortopulmonary window in this image?,middle mogul,<unk>,True,open-ended
+where is the diffuse pleural thickening?,right lung,<unk>,True,open-ended
+which lung is abnormal?,right lung,right,False,open-ended
+what kind of image is this?,x-ray,<unk>,False,open-ended
+how many instances of intussusception are in the image?,one,<unk>,False,open-ended
+which side is more clearly visualized?,left,<unk>,False,open-ended
+which lung is clearer?,left,<unk>,False,open-ended
+how wide is the heart compared to the thorax?,it is less than half the width of the thorax,<unk>,True,open-ended
+what is the dense mass visualized in the liver?,blood vessel,<unk>,True,open-ended
+where is free air trapped subcutaneously in this image?,above the clavicles bilaterally,<unk>,True,open-ended
+where is the ascending colon?,posterior to the appendix,<unk>,True,open-ended
+what structure lies directly posterior to the appendix in this image?,psoas muscle,<unk>,True,open-ended
+where is the subcutaneous air collection?,on the right shoulder.,<unk>,True,open-ended
+what is in the left apex?,a bullous lesion,<unk>,True,open-ended
+where is the lesion located?,anterior mediastinum,<unk>,True,open-ended

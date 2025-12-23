@@ -1,0 +1,3 @@
+split,total_samples,binary_questions,open_ended_questions,binary_percentage,unique_answers,top_answer,top_answer_count
+train,1793,941,852,52.5%,423,no,474
+test,451,251,200,55.7%,120,no,133

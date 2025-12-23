@@ -1,0 +1,72 @@
+================================================================================
+DUAL-HEAD VQA MODEL EVALUATION REPORT
+================================================================================
+
+Evaluation Date: 2025-12-21 13:24:25
+Checkpoint: checkpoints/baseline/best_model.pt
+Architecture: dual_head
+Model Type: BASELINE
+Device: mps
+
+================================================================================
+MODEL CONFIGURATION
+================================================================================
+binary_loss_weight: 1.0
+dropout: 0.35
+focal_gamma: 2.0
+fusion_hidden_dim: 512
+label_smoothing: 0.05
+num_attention_heads: 8
+num_open_ended_classes: 121
+open_ended_loss_weight: 1.0
+weight_decay: 0.01
+
+================================================================================
+VALIDATION SET RESULTS
+================================================================================
+
+Overall Accuracy: 0.7521 (75.21%)
+
+Binary Questions (Yes/No):
+  Accuracy:  0.7926
+  Precision: 0.8333
+  Recall:    0.7368
+  F1-Score:  0.7821
+  Samples:   188
+
+Open-Ended Questions:
+  Accuracy:        0.7076
+  Macro Precision: 0.0845
+  Macro Recall:    0.0998
+  Macro F1-Score:  0.0899
+  Samples:         171
+
+================================================================================
+TEST SET RESULTS
+================================================================================
+
+Overall Accuracy: 0.6630 (66.30%)
+
+Binary Questions (Yes/No):
+  Accuracy:  0.6255
+  Precision: 0.5923
+  Recall:    0.6525
+  F1-Score:  0.6210
+  Samples:   251
+
+Open-Ended Questions:
+  Accuracy:        0.7100
+  Macro Precision: 0.1149
+  Macro Recall:    0.1037
+  Macro F1-Score:  0.0958
+  Samples:         200
+
+================================================================================
+TRAINING HISTORY
+================================================================================
+
+Best Overall Val Acc: 73.54%
+Best Binary Val Acc:  70.05%
+Best Open-Ended Val Acc: 77.33%
+
+================================================================================

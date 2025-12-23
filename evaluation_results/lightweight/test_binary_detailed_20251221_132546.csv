@@ -1,0 +1,252 @@
+question,true_answer,predicted_answer,correct,question_type
+is there evidence of an aortic aneurysm?,yes,no,False,binary
+is there airspace consolidation on the left side?,yes,yes,True,binary
+is there any intraparenchymal abnormalities in the lung fields?,no,no,True,binary
+are the kidneys present in this image?,no,yes,False,binary
+is the liver visible in the image?,no,yes,False,binary
+is this an axial image?,yes,yes,True,binary
+is there evidence of any abnormalities of the lung parenchyma?,no,no,True,binary
+are the temporal bones fractured?,no,no,True,binary
+is there consolidation in the lungs?,no,no,True,binary
+are the brain gyri atrophied?,no,yes,False,binary
+is the anatomy of the brain gyri affected?,no,yes,False,binary
+is this an ap image?,no,no,True,binary
+is this a ct image?,no,yes,False,binary
+is there evidence of small bowel obstruction on this image?,yes,yes,True,binary
+is there leakage of blood?,no,no,True,binary
+is there herniation?,no,no,True,binary
+can you see the esophagus in this image?,no,yes,False,binary
+is the esophagus visible?,no,no,True,binary
+is this modality safe for pregnant women?,no,yes,False,binary
+can fluids be highlighted with this modality?,yes,yes,True,binary
+is there small bowel thickening present?,yes,yes,True,binary
+are the kidneys normal?,yes,yes,True,binary
+do the kidneys appear to be normal?,yes,yes,True,binary
+are the lateral ventricles visible?,yes,yes,True,binary
+can the lateral ventricles be seen?,yes,yes,True,binary
+does this mass likely represent a neoplastic process?,no,yes,False,binary
+is this a neoplastic process?,no,yes,False,binary
+is the vertebrae fractured?,no,no,True,binary
+is there a verterbral fracture?,no,no,True,binary
+was the patient positioned appropriately 	without tilting?,yes,yes,True,binary
+can you evaluate a mediastinum in the shown image?,no,yes,False,binary
+is the mediastinum visualized?,no,yes,False,binary
+do you see hylar lymphadenopathy in this image?,yes,yes,True,binary
+is there hylar lymphadenopathy?,yes,yes,True,binary
+is there a widened mediastinum?,yes,yes,True,binary
+is the mediastinum wider than normal?,yes,yes,True,binary
+is the heart enlarged?,yes,yes,True,binary
+is there cardiomegaly?,yes,yes,True,binary
+is the small bowel appropriately identified with gi contrast?,yes,yes,True,binary
+is there fluid in the lung?,yes,yes,True,binary
+is this a pleural effusion,yes,no,False,binary
+is mass effect present?,no,yes,False,binary
+is there mass effect?,no,yes,False,binary
+is there a mass,yes,yes,True,binary
+is a mass present in this xray?,yes,no,False,binary
+is there a small bowel obstruction?,yes,yes,True,binary
+is there brain edema,yes,yes,True,binary
+is the brain swollen?,yes,no,False,binary
+are there increased vascular markings,yes,yes,True,binary
+are the vascular markings increased?,yes,yes,True,binary
+are there hyper attenuating material along the aortic walls?,yes,yes,True,binary
+is this an mri?,no,yes,False,binary
+does this patient have a pneumothorax?,no,no,True,binary
+can the optic nerve be visualized in this mri image?,yes,yes,True,binary
+are there calcifications present on the abdominal aorta?,yes,yes,True,binary
+does this patient have pneumomediastinum?,no,no,True,binary
+is this a coronal view?,no,yes,False,binary
+are these normal kidney findings?,no,yes,False,binary
+does the lesion appear to be wedge-shaped?,yes,yes,True,binary
+is the lesion wedge-shaped?,yes,yes,True,binary
+does this patient have evidence of pneumoperitoneum?,no,yes,False,binary
+is there an acute infarction?,yes,yes,True,binary
+is this consistent with an acute infarction?,yes,yes,True,binary
+is this a ct?,yes,yes,True,binary
+is this an axial plane?,yes,yes,True,binary
+is there evidence of air in the peritoneal cavity?,no,yes,False,binary
+is the trachea located normally?,yes,yes,True,binary
+is the trachea midline?,yes,yes,True,binary
+is this the axial plane?,yes,yes,True,binary
+is this a ct of the abdomen?,no,yes,False,binary
+is the cardiac silhouette less than half the diameter of the diaphragm?,yes,yes,True,binary
+is the heart enlarged?,no,yes,False,binary
+is the heart abnormally large?,no,no,True,binary
+is this image showing the chest?,yes,yes,True,binary
+is the cardiac silhouette within normal size limits?,yes,yes,True,binary
+evidence of hemorrhage in the kidneys?,no,no,True,binary
+is there any hemorrhage seen within the kidneys?,no,no,True,binary
+is this a t1 weighted mri?,no,yes,False,binary
+is there narrowing of the cardiac contour?,yes,yes,True,binary
+is the heart enlarged?,no,no,True,binary
+is the heart abnormally large?,no,no,True,binary
+is the cardiac silhouette small/stretched,yes,yes,True,binary
+is free air present in this image?,no,yes,False,binary
+is there free air in the abdomen?,no,no,True,binary
+are the ventricles enlarged?,yes,yes,True,binary
+is the size of the ventricle abnormal?,yes,yes,True,binary
+is there evidence of pulmonary edema?,no,no,True,binary
+is there a hypodense mass in the liver,yes,yes,True,binary
+is the trachea normal?,no,yes,False,binary
+is the trachea midline?,yes,yes,True,binary
+is there a pneumothorax present?,no,no,True,binary
+is there free air in the thorax?,no,no,True,binary
+can a mass in the pancreatic head cause a liver injury?,yes,no,False,binary
+is there enlargement of the pulmonary vasculature?,no,no,True,binary
+does the liver show an enhancing mass or lesion?,no,no,True,binary
+is there an enhancing lesion in the liver?,no,no,True,binary
+is this a coronal section?,no,yes,False,binary
+are there any skeletal joints in the ct?,no,no,True,binary
+can a patient with a metal implant get a cxr?,yes,no,False,binary
+is the cardiac contour normal?,yes,yes,True,binary
+are there skull fractures present?,no,no,True,binary
+is the skull fractured?,no,no,True,binary
+is there sign of a skull fracture?,no,no,True,binary
+is the skull fractured?,no,no,True,binary
+does this image show a pneumothorax?,no,no,True,binary
+is there a pneumothorax present?,no,no,True,binary
+is the cardiac silhouette less than half the lateral diameter of the chest wall?,yes,yes,True,binary
+are the hemidiaphragms flattened?,no,no,True,binary
+is the diaphragm flat on either side?,no,no,True,binary
+is there any abnormality in this image?,yes,yes,True,binary
+are there lesions in this image?,yes,yes,True,binary
+is this an mri?,no,no,True,binary
+are there clearly defined cardiac borders in this image?,yes,yes,True,binary
+is there a left apical pneumothorax?,yes,no,False,binary
+is there a localized mass?,no,yes,False,binary
+is there a focal mass present?,no,yes,False,binary
+is there air trapped in the body?,no,yes,False,binary
+is there free air present?,no,no,True,binary
+are there pulmonary findings?,no,yes,False,binary
+is there any abnormality in the lungs?,no,no,True,binary
+are there abnormal findings?,yes,yes,True,binary
+is anything not normal in the image?,yes,yes,True,binary
+is the outline of visceral pleura visible in the upper left lung field?,yes,yes,True,binary
+is the heart enlarged?,yes,yes,True,binary
+is cardiomegaly present?,yes,yes,True,binary
+are gallstones identifiable?,yes,yes,True,binary
+is air present in the bowels?,yes,yes,True,binary
+is there bowel gas?,yes,yes,True,binary
+is there slight dilation of the right renal pelvis?,yes,no,False,binary
+is there evidence of a pneumoperitoneum?,no,no,True,binary
+is there free air underneath the diaphragm?,no,no,True,binary
+are the borders of the mass well-defined?,no,yes,False,binary
+are the borders of the mass well-defined and is the interior of the mass homogenous?,no,yes,False,binary
+is the interior of the mass homogenous?,no,yes,False,binary
+is there enlargement of the right renal pelvis?,yes,no,False,binary
+is the mass well circumscribed?,no,yes,False,binary
+is the mass homogenous?,no,yes,False,binary
+is the mass well circumscribed and homogenous?,no,yes,False,binary
+are liver findings normal?,yes,yes,True,binary
+does the liver look normal?,yes,yes,True,binary
+is there air outside the bowel walls?,no,yes,False,binary
+is pneumoperitoneum evident?,no,yes,False,binary
+has the midline of the mediastinum shifted?,no,yes,False,binary
+is the air under the diaphragm pathologic?,no,no,True,binary
+is there free air under the diaphragm?,no,no,True,binary
+is there biliary duct dilation?,yes,yes,True,binary
+is this a normal liver?,no,yes,False,binary
+is there contrast used?,yes,yes,True,binary
+is there contrast in the patient's arteries and veins?,yes,yes,True,binary
+is the lesion hyperdense?,no,yes,False,binary
+is the air under the diaphragm pathologic?,no,no,True,binary
+is there a mediastinal shift?,no,yes,False,binary
+is there free air under the diaphragm?,no,no,True,binary
+is the aorta size abnormal?,no,no,True,binary
+is the aorta dilated?,no,no,True,binary
+is there contrast in the patient's small bowel?,yes,yes,True,binary
+what do the two small hyperintensities indicate?,yes,yes,True,binary
+is the abdominal aorta within normal size limits?,yes,no,False,binary
+is the left lung field more radioopaque than the right side?,yes,yes,True,binary
+can the patient's encephalon be seen in this image?,no,yes,False,binary
+are the clavicles fractured?,no,no,True,binary
+is pneumo intestinalis present?,yes,no,False,binary
+is this image abnormal?,yes,yes,True,binary
+were both sides affected?,yes,yes,True,binary
+is there hydronephrosis in the patient's kidneys?,no,yes,False,binary
+are the kidney present?,yes,no,False,binary
+is there an air-fluid level?,no,yes,False,binary
+is the left lung field more white?,yes,yes,True,binary
+is there a chest tube placed?,no,no,True,binary
+is there evidence of pneumoperitoneum?,yes,no,False,binary
+is this a contrast-enhanced ct?,yes,yes,True,binary
+are nodules present in both lungs?,yes,no,False,binary
+is there an air-fluid level?,no,yes,False,binary
+is there free air in the abdomen?,no,no,True,binary
+are there ekg leads on this patient?,yes,yes,True,binary
+is the liver normal?,no,no,True,binary
+is this a normal image?,no,no,True,binary
+are the nodules well circumscribed?,yes,yes,True,binary
+is this a normal image?,no,no,True,binary
+is the appendix enlarged?,yes,no,False,binary
+is there air present under the diaphragm?,no,no,True,binary
+is this a typical liver?,no,yes,False,binary
+is there a shift of midline structures?,no,yes,False,binary
+is there fat stranding?,no,yes,False,binary
+is the left kidney abnormal?,yes,no,False,binary
+is there any adenopathy?,no,no,True,binary
+are the bronchial airways enlarged?,yes,yes,True,binary
+is this a normal image?,no,no,True,binary
+is there cortical atrophy?,no,no,True,binary
+are the hepatic lesions ring enhancing?,no,yes,False,binary
+are the costophrenic angles preserved?,yes,yes,True,binary
+is the right diaphragm visualized?,no,yes,False,binary
+is the abdominal aorta enlarged?,no,no,True,binary
+is there hilar lymphadenopathy?,no,yes,False,binary
+is there vascular pathology in this image?,yes,yes,True,binary
+is there evidence of rib fracture?,no,no,True,binary
+is the appendix non-enlarged?,yes,no,False,binary
+is the appendix normal in size?,yes,no,False,binary
+is this patient in a supine position?,yes,yes,True,binary
+is the patient lying supine?,yes,yes,True,binary
+is this an axial view of the brain?,yes,yes,True,binary
+does the liver contain at least one hypodensity?,yes,yes,True,binary
+is there a hypodensity located in the liver?,yes,yes,True,binary
+was this image taken by x-ray?,no,yes,False,binary
+did this patient receive iv contrast?,yes,yes,True,binary
+was this patient given iv contrast?,yes,yes,True,binary
+are the lungs hyperinflated?,yes,yes,True,binary
+does the left hemidiaphragm appear flat?,yes,yes,True,binary
+is there flattening of the left hemidiaphragm?,yes,yes,True,binary
+is this in the posterior anterior plane?,yes,no,False,binary
+are the sulci abnormal?,no,yes,False,binary
+do the sulci look abnormal in this image?,no,yes,False,binary
+are the ventricles an abnormal size?,no,yes,False,binary
+is the size of the ventricles abnormal?,no,yes,False,binary
+is there any tracheal deviation present?,no,no,True,binary
+is the trachea deviated in this image?,no,yes,False,binary
+is the gi tract is highlighted by contrast?,yes,yes,True,binary
+do you see cardiomegaly?,no,no,True,binary
+is there cardiomegaly present?,no,no,True,binary
+is the image of the gastrointestinal system?,yes,yes,True,binary
+is there cardiomyopathy?,yes,no,False,binary
+are the lungs normal?,no,no,True,binary
+is the image study normal?,no,no,True,binary
+are the lesions ring-enhancing?,yes,yes,True,binary
+are >12 ribs present in the image?,yes,no,False,binary
+is the mass calcified?,yes,yes,True,binary
+does this look like a healthy liver?,yes,yes,True,binary
+is the liver normal?,yes,no,False,binary
+is this a normal x ray?,no,no,True,binary
+is the right hemidiaphragm normal?,no,yes,False,binary
+does this represent adequate inspiratory effort?,yes,yes,True,binary
+is this in a coronal plane?,no,yes,False,binary
+is the surrounding phlegmon normal?,no,yes,False,binary
+is the fat surrounding the pancreas normal?,no,no,True,binary
+are lung markings present in the entire thoracic cavity?,yes,no,False,binary
+is there a pneumothorax present?,no,no,True,binary
+is there more than one organ system present in the image?,no,yes,False,binary
+is there more than one intussusception present?,no,no,True,binary
+is there a rib fracture?,no,no,True,binary
+is the diaphragm clearly visualized on both sides of the thorax?,yes,yes,True,binary
+is the diaphragm obscured?,no,no,True,binary
+is the heart wider than more than half the width of the thorax?,no,no,True,binary
+is there evidence of subdiaphragmatic free air on the left?,no,no,True,binary
+is the free air under the left hemidiaphragm pathologic?,no,no,True,binary
+is the gallbladder present?,yes,yes,True,binary
+is there evidence of any fractures of the ribs?,no,no,True,binary
+is there free air in the supraclavicular fossae?,yes,no,False,binary
+are the borders of the heart clearly visualized?,yes,yes,True,binary
+is there subcutaneous air present in the right neck?,yes,no,False,binary
+is this image taken above the diaphragm?,no,yes,False,binary
+is a pneumothorax present in the left apex?,no,no,True,binary

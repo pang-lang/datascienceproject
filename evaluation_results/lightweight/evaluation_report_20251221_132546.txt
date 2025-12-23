@@ -1,0 +1,72 @@
+================================================================================
+DUAL-HEAD VQA MODEL EVALUATION REPORT
+================================================================================
+
+Evaluation Date: 2025-12-21 13:27:33
+Checkpoint: checkpoints/lightweight/best_model.pt
+Architecture: dual_head
+Model Type: LIGHTWEIGHT
+Device: mps
+
+================================================================================
+MODEL CONFIGURATION
+================================================================================
+binary_loss_weight: 1.0
+dropout: 0.35
+focal_gamma: 2.0
+fusion_hidden_dim: 512
+label_smoothing: 0.05
+num_attention_heads: 8
+num_open_ended_classes: 121
+open_ended_loss_weight: 1.0
+weight_decay: 0.01
+
+================================================================================
+VALIDATION SET RESULTS
+================================================================================
+
+Overall Accuracy: 0.7298 (72.98%)
+
+Binary Questions (Yes/No):
+  Accuracy:  0.7074
+  Precision: 0.6923
+  Recall:    0.7579
+  F1-Score:  0.7236
+  Samples:   188
+
+Open-Ended Questions:
+  Accuracy:        0.7544
+  Macro Precision: 0.2631
+  Macro Recall:    0.2967
+  Macro F1-Score:  0.2729
+  Samples:         171
+
+================================================================================
+TEST SET RESULTS
+================================================================================
+
+Overall Accuracy: 0.6940 (69.40%)
+
+Binary Questions (Yes/No):
+  Accuracy:  0.6574
+  Precision: 0.6039
+  Recall:    0.7881
+  F1-Score:  0.6838
+  Samples:   251
+
+Open-Ended Questions:
+  Accuracy:        0.7400
+  Macro Precision: 0.2686
+  Macro Recall:    0.2024
+  Macro F1-Score:  0.2126
+  Samples:         200
+
+================================================================================
+TRAINING HISTORY
+================================================================================
+
+Best Overall Val Acc: 72.98%
+Best Binary Val Acc:  70.74%
+Best Open-Ended Val Acc: 75.44%
+
+================================================================================
