@@ -38,67 +38,75 @@ DEVICE = torch.device('cpu')  # Streamlit Cloud doesn't have GPU
 HF_REPO_ID = "daphne04/radvqa-lightweight"  # Your HuggingFace repo name
 LIGHTWEIGHT_MODEL_FILE = "lightweight_best_model.pt"
 BASELINE_MODEL_FILE = "baseline_best_model.pt"
+ANSWER_VOCAB_FILE = "answer_vocab.json"
 
 
 @st.cache_resource
-def download_model_from_hf(model_file: str, repo_id: str = HF_REPO_ID):
-    """Download model from Hugging Face Hub with caching."""
+def download_from_hf(filename: str, repo_id: str = HF_REPO_ID):
+    """Download file from Hugging Face Hub with caching."""
     try:
-        with st.spinner(f"📥 Downloading {model_file} from Hugging Face..."):
-            model_path = hf_hub_download(
+        with st.spinner(f"📥 Downloading {filename} from Hugging Face..."):
+            file_path = hf_hub_download(
                 repo_id=repo_id,
-                filename=model_file,
+                filename=filename,
                 cache_dir=None  # Use default cache directory
             )
-        return model_path
+        return file_path
     except Exception as e:
-        st.error(f"❌ Error downloading model from Hugging Face: {e}")
-        st.info("Please ensure the repository '{repo_id}' exists and is public.")
+        st.error(f"❌ Error downloading {filename} from Hugging Face: {e}")
+        st.info(f"Please ensure the file exists in repository '{repo_id}'")
         raise
 
 
 @st.cache_resource
 def load_answer_vocab():
     """
-    Load answer vocabulary for inference.
-    For deployment, we use a simplified approach without loading full dataset.
+    Load answer vocabulary from HuggingFace.
+    Uses the exact same vocabulary as training for consistent predictions.
     """
     # Binary answers for dual-head routing
     BINARY_ANSWERS = {'yes', 'no'}
     
-    # Build a comprehensive answer vocabulary based on VQA-RAD dataset
-    # This is a pre-defined list to avoid downloading the full dataset on startup
-    common_answers = [
-        '<unk>', 'yes', 'no', 'normal', 'abnormal', 'lung', 'chest', 'left', 'right',
-        'pneumonia', 'ct scan', 'mri', 'x-ray', 'brain', 'abdomen', 'heart', 'kidney',
-        'liver', 'spine', 'bone', 'fracture', 'tumor', 'cancer', 'mass', 'lesion',
-        'effusion', 'edema', 'enlarged', 'calcification', 'atelectasis', 'consolidation',
-        'nodule', 'opacity', 'pleural', 'cardiomegaly', 'emphysema', 'fibrosis',
-        'infiltrate', 'pneumothorax', 'subcutaneous', 'male', 'female', 'adult',
-        'elderly', 'middle-aged', 'sagittal', 'coronal', 'axial', 'frontal',
-        'lateral', 'superior', 'inferior', 'anterior', 'posterior', 'medial',
-        'lower', 'upper', 'bilateral', 'unilateral', 'diffuse', 'focal',
-        'moderate', 'severe', 'mild', 'chronic', 'acute', 'multiple', 'single',
-        'large', 'small', 'both', 'none', 'central', 'peripheral', 'basilar',
-        'apical', 'hilar', 'mediastinal', 'parenchymal', 'vascular', 'skeletal',
-        'soft tissue', 'air', 'fluid', 'blood', 'gas', 'contrast', 'noncontrast',
-        'cystic', 'solid', 'mixed', 'rounded', 'irregular', 'smooth', 'spiculated',
-        'ground glass', 'tree-in-bud', 'crazy paving', 'honeycombing', 'bronchiectasis',
-        'thickening', 'narrowing', 'dilation', 'displacement', 'compression', 'destruction'
-    ]
-    
-    # Create vocabulary mappings
-    answer_vocab = {answer: idx for idx, answer in enumerate(common_answers)}
-    idx_to_answer = {idx: answer for answer, idx in answer_vocab.items()}
-    
-    return answer_vocab, idx_to_answer, BINARY_ANSWERS
+    try:
+        # Download answer vocabulary from HuggingFace
+        vocab_path = download_from_hf(ANSWER_VOCAB_FILE)
+        
+        # Load the vocabulary
+        with open(vocab_path, 'r') as f:
+            answer_vocab = json.load(f)
+        
+        # Create reverse mapping
+        idx_to_answer = {idx: ans for ans, idx in answer_vocab.items()}
+        
+        st.success(f"✅ Loaded vocabulary with {len(answer_vocab)} answers from training")
+        
+        return answer_vocab, idx_to_answer, BINARY_ANSWERS
+        
+    except Exception as e:
+        # Fallback to a minimal vocabulary if file not found
+        st.warning(f"⚠️ Could not load answer_vocab.json from HuggingFace. Using fallback vocabulary.")
+        st.info("To use the exact training vocabulary, upload 'answer_vocab.json' to your HuggingFace repo.")
+        
+        # Minimal fallback vocabulary
+        fallback_answers = [
+            '<unk>', 'yes', 'no', 'normal', 'abnormal', 'lung', 'chest', 'left', 'right',
+            'pneumonia', 'ct scan', 'mri', 'x-ray', 'brain', 'abdomen', 'heart', 'kidney',
+            'liver', 'spine', 'bone', 'fracture', 'tumor', 'cancer', 'mass', 'lesion',
+            'effusion', 'edema', 'enlarged', 'calcification', 'atelectasis', 'consolidation',
+            'nodule', 'opacity', 'pleural', 'cardiomegaly', 'male', 'female', 'both'
+        ]
+        
+        answer_vocab = {answer: idx for idx, answer in enumerate(fallback_answers)}
+        idx_to_answer = {idx: answer for answer, idx in answer_vocab.items()}
+        
+        return answer_vocab, idx_to_answer, BINARY_ANSWERS
 
 
 @st.cache_resource
 def load_lightweight_model():
     """Load the lightweight dual-head VQA model from Hugging Face."""
     # Download model from Hugging Face
-    checkpoint_path = download_model_from_hf(LIGHTWEIGHT_MODEL_FILE)
+    checkpoint_path = download_from_hf(LIGHTWEIGHT_MODEL_FILE)
     
     # Load checkpoint to get the config
     checkpoint = torch.load(checkpoint_path, map_location=DEVICE, weights_only=False)
@@ -134,7 +142,7 @@ def load_lightweight_model():
 def load_baseline_model():
     """Load the baseline dual-head VQA model from Hugging Face."""
     # Download model from Hugging Face
-    checkpoint_path = download_model_from_hf(BASELINE_MODEL_FILE)
+    checkpoint_path = download_from_hf(BASELINE_MODEL_FILE)
     
     # Load checkpoint to get the config
     checkpoint = torch.load(checkpoint_path, map_location=DEVICE, weights_only=False)
