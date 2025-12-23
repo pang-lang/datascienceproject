@@ -8,3 +8,4 @@ scikit-learn
 transformers
 matplotlib
 datasets
+pyarrow<14
