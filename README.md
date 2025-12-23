@@ -153,10 +153,8 @@ radiology-vqa/
 │   ├── train_lightweight.py        # Train lightweight model
 │   └── train_baseline.py           # Train baseline model
 │
-├── deployment/
-│   ├── radvqa_streamlit.py         # Streamlit application
-│   └── run_streamlit.sh            # Streamlit launch script
-│
+├── radvqa_streamlit.py         # Streamlit application
+├── run_streamlit.sh            # Streamlit launch script
 ├── answer_vocab.json               # Final answer vocabulary
 ├── save_answer_vocab.py            # Vocabulary generation script
 ├── requirements.txt                # Python dependencies
