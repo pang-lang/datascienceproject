@@ -167,7 +167,7 @@ radiology-vqa/
 
 <div align="center">
 
-**Made with ❤️ for medical AI research**
+**Made with ❤️**
 
 ⭐ Star this repo if you find it helpful!
 
