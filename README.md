@@ -144,17 +144,17 @@ radiology-vqa/
 │
 ├── preprocessing/
 │   ├── check_unk.py                # UNK rate analysis
-│   ├── combined_preprocessing.py  # Multimodal preprocessing pipeline
-│   ├── image_preprocessing.py     # Image transforms & augmentation
-│   ├── text_preprocessing.py      # Text tokenization & normalization
+│   ├── combined_preprocessing.py   # Multimodal preprocessing pipeline
+│   ├── image_preprocessing.py      # Image transforms & augmentation
+│   ├── text_preprocessing.py       # Text tokenization & normalization
 │   └── load_dataset.py             # Dataset loading & EDA
 │
 ├── training/
 │   ├── train_lightweight.py        # Train lightweight model
 │   └── train_baseline.py           # Train baseline model
 │
-├── radvqa_streamlit.py         # Streamlit application
-├── run_streamlit.sh            # Streamlit launch script
+├── radvqa_streamlit.py             # Streamlit application
+├── run_streamlit.sh                # Streamlit launch script
 ├── answer_vocab.json               # Final answer vocabulary
 ├── save_answer_vocab.py            # Vocabulary generation script
 ├── requirements.txt                # Python dependencies
@@ -164,11 +164,6 @@ radiology-vqa/
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 <div align="center">
 
