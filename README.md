@@ -3,7 +3,6 @@
 [![Streamlit App](https://img.shields.io/badge/Streamlit-Live_Demo-FF4B4B?logo=streamlit)](https://pang-lang-datascienceproject-radvqa-streamlit-r3iiyd.streamlit.app)
 [![HuggingFace](https://img.shields.io/badge/🤗-Models-yellow)](https://huggingface.co/daphne04/radvqa-lightweight)
 [![Canva Slides](https://img.shields.io/badge/Canva-Presentation-blue)](https://www.canva.com/design/DAG6g3MSKko/zi79GjGjoqmH82MbFdPpbA/view)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
