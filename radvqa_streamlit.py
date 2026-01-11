@@ -543,7 +543,7 @@ elif page == "📊 Project Overview":
 
         st.markdown("---")
         st.subheader("🔑 Methodology Flow")
-        st.image("""analysis/eda_reports/methodology.png""")
+        st.image('analysis/eda_reports/methodology.png')
         
     # TAB 2: DATASET
     with tab2:
@@ -562,7 +562,7 @@ elif page == "📊 Project Overview":
 
         st.subheader("\n")
 
-        st.image('analysis/eda_reports/workflow.webp')
+        st.image('analysis/eda_reports/Workflow.webp')
         st.markdown("<p style='text-align: center;'> Workflow of the dataset creation", unsafe_allow_html=True)
         
         st.markdown("---")
