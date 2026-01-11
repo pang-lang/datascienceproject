@@ -146,8 +146,7 @@ def is_binary_question(question: str) -> bool:
         'is there', 'are there', 'is this', 'are these',
         'does this', 'do these', 'can you see',
         'is it', 'are they', 'was there', 'were there',
-        'has the', 'have the', 'did the',
-        'is the', 'are the'
+        'has the', 'have the', 'did the'
     ]
     
     for indicator in binary_indicators:
