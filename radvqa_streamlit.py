@@ -276,6 +276,22 @@ def visualize_cross_modal_attention(attention_weights, question_text):
 # ============================================================================
 
 if page == "🎯 Demo":
+
+    st.sidebar.markdown("### 📝 Sample Questions")
+
+    sample_questions = [
+        "Is there any abnormality?",
+        "Is there a fracture?",
+        "Is this image normal?",
+        "Is this a CT image?",
+        "Is there free fluid?"
+    ]
+
+    for q in sample_questions:
+        cols = st.sidebar.columns([1])   # full width
+        if cols[0].button(q, key=q, use_container_width=True):
+            st.session_state.user_question = q
+    
     # Title
     st.title("🏥 Radiology Visual Question Answering")
 
@@ -343,19 +359,18 @@ if page == "🎯 Demo":
     if uploaded_file is not None:
         try:
             image = Image.open(uploaded_file)
-            
-            # Display original image
-            st.markdown("**Original Image**")
-            st.image(image, use_container_width=True)
-            
+
+            # Center image using columns
+            col1, col2, col3 = st.columns([1,2,1])
+            with col2:
+                st.image(image, width=500)
+
             # Placeholder for Attention Visualization
             if show_attention:
-                st.markdown("**Cross-Modal Attention Visualization**")
                 attention_placeholder = st.empty()
-                attention_placeholder.info("Attention visualization will appear here after answering a question")
-            
-            # Show image details
+               
             st.info(f"📊 Image Size: {image.size[0]} x {image.size[1]} pixels")
+
         except Exception as e:
             st.error(f"Error loading image: {str(e)}")
 
@@ -367,7 +382,8 @@ if page == "🎯 Demo":
     question = st.text_input(
         "Enter your question:",
         placeholder="e.g., What abnormalities are visible in this image?",
-        help="Ask questions about the uploaded radiology image"
+        help="Ask questions about the uploaded radiology image",
+        key="user_question"
     )
 
     # Submit button
@@ -456,30 +472,6 @@ if page == "🎯 Demo":
                 import traceback
                 st.code(traceback.format_exc())
 
-    st.markdown("---")
-
-    # Sample Questions Section
-    st.header("📝 Sample Questions")
-
-    col_q1, col_q2 = st.columns(2)
-
-    with col_q1:
-        st.markdown("""
-        **Detection Questions:**
-        - Is there any fracture visible?
-        - Are there any abnormalities?
-        - What pathological findings can you identify?
-        """)
-
-    with col_q2:
-        st.markdown("""
-        **Description Questions:**
-        - What type of imaging modality is this?
-        - Describe the findings in this scan.
-        - What is the patient's condition?
-        """)
-
-    # Footer
     st.markdown("---")
     st.caption("⚕️ This tool is for educational purposes only and should not replace professional medical advice.")
 
